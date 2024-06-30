@@ -1,4 +1,5 @@
 # ClearScriptBridged
+A project to port Node.JS APIs to ClearScript (currently via PowerShell)
 
 ## Status:
 - Language: PowerShell
