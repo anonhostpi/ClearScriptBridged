@@ -1,0 +1,6 @@
+[submodule "node"]
+	path = node
+	url = https://github.com/nodejs/node.git
+[submodule "clearscript"]
+	path = clearscript
+	url = https://github.com/microsoft/ClearScript.git
