@@ -1,0 +1,5 @@
+. ($paths.setup + "/deps.ps1")
+. ($paths.setup + "/threads.ps1")
+. ($paths.setup + "/types.ps1")
+. ($paths.setup + "/config.ps1")
+. ($paths.setup + "/init.ps1")
