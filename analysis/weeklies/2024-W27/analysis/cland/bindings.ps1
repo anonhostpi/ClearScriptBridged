@@ -44,22 +44,5 @@ $analysis.cland.bindings = & {
         $ordered[$key] = $unordered[$key]
     }
 
-    $ordered.GetEnumerator() | ForEach-Object {
-        $binding = $_.Key
-    
-        Write-Host "Internal Binding: " -NoNewLine; Write-Host $binding -ForegroundColor Magenta -NoNewLine; Write-Host;
-    
-        $_.Value.GetEnumerator() | ForEach-Object {
-            $file = $_.Key
-            $mapping = $_.Value.Bindings
-            Write-Host "- File: " -NoNewLine -ForegroundColor DarkGray; Write-Host $file -ForegroundColor Cyan -NoNewLine; Write-Host;
-            $mapping | ForEach-Object {
-                Write-Host "- Register ($( $_.Line )): " -NoNewLine -ForegroundColor DarkGray; Write-Host $_.Register -ForegroundColor Yellow -NoNewLine; Write-Host;
-            }
-        }
-    
-        Write-Host
-    }
-
     $ordered
 }
