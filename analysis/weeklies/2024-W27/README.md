@@ -39,6 +39,8 @@ The data generated is a 2-part breakdown of the internal bindings in Node.JS. Th
 
 It was found that these are only included in test files for Node.JS, and are not used in the main codebase. An effort to include them will be made, but not prioritized.
 
+# Internal Binding: async_wrap
+
 > Internal Binding: async_wrap
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\async_wrap.cc
@@ -48,6 +50,77 @@ It was found that these are only included in test files for Node.JS, and are not
 >   - File (Lines: 10,11): S:\ClearScriptBridged\node\lib\internal\trace_events_async_hooks.js
 >   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405): S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 >   - File (Lines: 11,13,83,84,96): S:\ClearScriptBridged\node\lib\internal\async_hooks.js
+
+This is a binding to the old AsyncWrap API. While it is deprecated, it is still used in the Node.JS codebase and is the basis for the newer AsyncHooks and promisication APIs. Its purpose is to provide hooks to track the lifecycle of asynchronous operations. It is used to handle various operations like file I/O, network I/O, timers, and more.
+
+## Uses
+
+**_promise_hooks.js_**: Lifecycle hooks for promises.
+```
+const { setPromiseHooks } = internalBinding('async_wrap');
+```
+**_trace_events_async_hooks.js_**: Integration with trace events.
+```
+const async_wrap = internalBinding('async_wrap');
+// ...
+const nativeProviders = new SafeSet(ObjectKeys(async_wrap.Providers));
+// ...
+nativeProviders.delete('PROMISE');
+```
+**_bootstrap\node.js_**: Initialization of the binding.
+```
+internalBinding('async_wrap').setupHooks(nativeHooks);
+```
+**_async_hooks.js_**: A less low-level API for async operations.
+```
+const async_wrap = internalBinding('async_wrap');
+// ...
+const {
+  async_hook_fields,
+  async_id_fields,
+  execution_async_resources,
+} = async_wrap;
+// ...
+const {
+  pushAsyncContext: pushAsyncContext_,
+  popAsyncContext: popAsyncContext_,
+  executionAsyncResource: executionAsyncResource_,
+  clearAsyncIdStack,
+} = async_wrap;
+// ...
+const { registerDestroyHook } = async_wrap;
+// ...
+const {
+  kInit, kBefore, kAfter, kDestroy, kTotals, kPromiseResolve,
+  kCheck, kExecutionAsyncId, kAsyncIdCounter, kTriggerAsyncId,
+  kDefaultTriggerAsyncId, kStackLength, kUsesExecutionAsyncResource,
+} = async_wrap.constants;
+// ...
+async_wrap.queueDestroyAsyncId(asyncId);
+// ...
+async_wrap.async_ids_stack[offset * 2] = async_id_fields[kExecutionAsyncId];
+async_wrap.async_ids_stack[offset * 2 + 1] = async_id_fields[kTriggerAsyncId];
+// ...
+async_id_fields[kExecutionAsyncId] = async_wrap.async_ids_stack[2 * offset];
+async_id_fields[kTriggerAsyncId] = async_wrap.async_ids_stack[2 * offset + 1];
+// ...
+module.exports = {
+  // ...
+  constants: {
+    kInit, kBefore, kAfter, kDestroy, kTotals, kPromiseResolve,
+  },
+  // ...
+  clearAsyncIdStack,
+  // ...
+  registerDestroyHook,
+  // ...
+  asyncWrap: {
+    Providers: async_wrap.Providers,
+  },
+}
+```
+
+# Internal Binding: blob
 
 > Internal Binding: blob
 > - C++ Land
