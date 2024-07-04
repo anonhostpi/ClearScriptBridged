@@ -130,6 +130,8 @@ module.exports = {
 >   - File (Lines: 27,30): S:\ClearScriptBridged\node\lib\internal\blob.js
 >   - File (Lines: 91,1173): S:\ClearScriptBridged\node\lib\internal\url.js
 
+# Internal Binding: block_list
+
 > Internal Binding: block_list
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_sockaddr.cc
@@ -137,6 +139,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 11,31): S:\ClearScriptBridged\node\lib\internal\blocklist.js
 >   - File (Lines: 12): S:\ClearScriptBridged\node\lib\internal\socketaddress.js
+
+# Internal Binding: buffer
 
 > Internal Binding: buffer
 > - C++ Land
@@ -151,6 +155,8 @@ module.exports = {
 >   - File (Lines: 73,80,1216,1220): S:\ClearScriptBridged\node\lib\buffer.js
 >   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405): S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 
+# Internal Binding: builtins
+
 > Internal Binding: builtins
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_builtins.cc
@@ -162,6 +168,8 @@ module.exports = {
 >   - File (Lines: 37): S:\ClearScriptBridged\node\lib\internal\legacy\processbinding.js
 >   - File (Lines: 199,201,447): S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
 
+# Internal Binding: cares_wrap
+
 > Internal Binding: cares_wrap
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\cares_wrap.cc
@@ -172,6 +180,8 @@ module.exports = {
 >   - File (Lines: 65): S:\ClearScriptBridged\node\lib\internal\dns\promises.js
 >   - File (Lines: 31): S:\ClearScriptBridged\node\lib\internal\dns\utils.js
 >   - File (Lines: 30): S:\ClearScriptBridged\node\lib\dns.js
+
+# Internal Binding: config
 
 > Internal Binding: config
 > - C++ Land
@@ -194,6 +204,8 @@ module.exports = {
 >   - File (Lines: 11,13): S:\ClearScriptBridged\node\lib\internal\inspector_async_hook.js
 >   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677): S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 >   - File (Lines: 52,390,398): S:\ClearScriptBridged\node\lib\internal\encoding.js
+
+# Internal Binding: constants
 
 > Internal Binding: constants
 > - C++ Land
@@ -222,6 +234,8 @@ module.exports = {
 >   - File (Lines: 42,48): S:\ClearScriptBridged\node\lib\crypto.js
 >   - File (Lines: 12,25): S:\ClearScriptBridged\node\lib\internal\process\signal.js
 
+# Internal Binding: contextify
+
 > Internal Binding: contextify
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_contextify.cc
@@ -235,6 +249,8 @@ module.exports = {
 >   - File (Lines: 32,61): S:\ClearScriptBridged\node\lib\internal\modules\esm\translators.js
 >   - File (Lines: 22): S:\ClearScriptBridged\node\lib\internal\modules\esm\get_format.js
 
+# Internal Binding: credentials
+
 > Internal Binding: credentials
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_credentials.cc
@@ -245,6 +261,8 @@ module.exports = {
 >   - File (Lines: 3,4): S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\does_own_process_state.js
 >   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405): S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 >   - File (Lines: 34,35,61): S:\ClearScriptBridged\node\lib\os.js
+
+# Internal Binding: crypto
 
 > Internal Binding: crypto
 > - C++ Land
@@ -275,6 +293,8 @@ module.exports = {
 >   - File (Lines: 21): S:\ClearScriptBridged\node\lib\internal\crypto\webcrypto.js
 >   - File (Lines: 27): S:\ClearScriptBridged\node\lib\internal\crypto\keys.js
 
+# Internal Binding: encoding_binding
+
 > Internal Binding: encoding_binding
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\encoding_binding.cc
@@ -282,6 +302,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 52,390,398): S:\ClearScriptBridged\node\lib\internal\encoding.js
 >   - File (Lines: 3): S:\ClearScriptBridged\node\lib\internal\idna.js
+
+# Internal Binding: errors
 
 > Internal Binding: errors
 > - C++ Land
@@ -310,6 +332,8 @@ module.exports = {
 >   - File (Lines: 17): S:\ClearScriptBridged\node\lib\internal\main\test_runner.js
 >   - File (Lines: 25): S:\ClearScriptBridged\node\lib\internal\source_map\prepare_stack_trace.js
 
+# Internal Binding: fs
+
 > Internal Binding: fs
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_file.cc
@@ -326,12 +350,16 @@ module.exports = {
 >   - File (Lines: 23,32): S:\ClearScriptBridged\node\lib\internal\fs\promises.js
 >   - File (Lines: 72,74,137,142,143,160,1388,1451): S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
 
+# Internal Binding: fs_dir
+
 > Internal Binding: fs_dir
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_dir.cc
 >   - Register (466): node::fs_dir::CreatePerContextProperties
 > - JavaScript Land
 >   - File (Lines: 13,14): S:\ClearScriptBridged\node\lib\internal\fs\dir.js
+
+# Internal Binding: fs_event_wrap
 
 > Internal Binding: fs_event_wrap
 > - C++ Land
@@ -340,12 +368,16 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 25,27,28): S:\ClearScriptBridged\node\lib\internal\fs\watchers.js
 
+# Internal Binding: heap_utils
+
 > Internal Binding: heap_utils
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\heap_utils.cc
 >   - Register (496): node::heap::Initialize
 > - JavaScript Land
 >   - File (Lines: 41,47,48,52,60,105): S:\ClearScriptBridged\node\lib\v8.js
+
+# Internal Binding: http_parser
 
 > Internal Binding: http_parser
 > - C++ Land
@@ -356,6 +388,8 @@ module.exports = {
 >   - File (Lines: 31): S:\ClearScriptBridged\node\lib\_http_common.js
 >   - File (Lines: 45,52,53,54,55,56,61,75,80): S:\ClearScriptBridged\node\lib\internal\child_process.js
 
+# Internal Binding: http2
+
 > Internal Binding: http2
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_http2.cc
@@ -365,6 +399,8 @@ module.exports = {
 >   - File (Lines: 187,188,193,194,196): S:\ClearScriptBridged\node\lib\internal\http2\core.js
 >   - File (Lines: 39): S:\ClearScriptBridged\node\lib\internal\http2\compat.js
 
+# Internal Binding: icu
+
 > Internal Binding: icu
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_i18n.cc
@@ -373,6 +409,8 @@ module.exports = {
 >   - File (Lines: 73,80,1216,1220): S:\ClearScriptBridged\node\lib\buffer.js
 >   - File (Lines: 52,390,398): S:\ClearScriptBridged\node\lib\internal\encoding.js
 >   - File (Lines: 112,2323,2324): S:\ClearScriptBridged\node\lib\internal\util\inspect.js
+
+# Internal Binding: inspector
 
 > Internal Binding: inspector
 > - C++ Land
@@ -390,12 +428,16 @@ module.exports = {
 >   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677): S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 >   - File (Lines: 72,74,137,142,143,160,1388,1451): S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
 
+# Internal Binding: inspector_only_v8
+
 > Internal Binding: internal_only_v8
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\internal_only_v8.cc
 >   - Register (82): node::internal_only_v8::Initialize
 > - JavaScript Land
 >   - File (Lines: 26): S:\ClearScriptBridged\node\lib\internal\heap_utils.js
+
+# Internal Binding: js_stream
 
 > Internal Binding: js_stream
 > - C++ Land
@@ -404,10 +446,14 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 10,11): S:\ClearScriptBridged\node\lib\internal\js_stream_socket.js
 
+# Internal Binding: js_udp_wrap
+
 > Internal Binding: js_udp_wrap
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\js_udp_wrap.cc
 >   - Register (220): node::JSUDPWrap::Initialize
+
+# Internal Binding: messaging
 
 > Internal Binding: messaging
 > - C++ Land
@@ -425,6 +471,8 @@ module.exports = {
 >   - File (Lines: 31,41,44): S:\ClearScriptBridged\node\lib\internal\worker\io.js
 >   - File (Lines: 11,14,24): S:\ClearScriptBridged\node\lib\internal\worker\js_transferable.js
 
+# Internal Binding: mksnapshot
+
 > Internal Binding: mksnapshot
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_snapshotable.cc
@@ -433,6 +481,8 @@ module.exports = {
 >   - File (Lines: 19): S:\ClearScriptBridged\node\lib\internal\v8\startup_snapshot.js
 >   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677): S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 >   - File (Lines: 16,18): S:\ClearScriptBridged\node\lib\internal\main\mksnapshot.js
+
+# Internal Binding: module_wrap
 
 > Internal Binding: module_wrap
 > - C++ Land
@@ -450,6 +500,8 @@ module.exports = {
 >   - File (Lines: 14,21,23,45): S:\ClearScriptBridged\node\lib\internal\modules\esm\utils.js
 >   - File (Lines: 199,201,447): S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
 
+# Internal Binding: modules
+
 > Internal Binding: modules
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_modules.cc
@@ -457,6 +509,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 10): S:\ClearScriptBridged\node\lib\internal\modules\package_json_reader.js
 >   - File (Lines: 8,18,23): S:\ClearScriptBridged\node\lib\internal\modules\run_main.js
+
+# Internal Binding: options
 
 > Internal Binding: options
 > - C++ Land
@@ -467,6 +521,8 @@ module.exports = {
 >   - File (Lines: 19,35): S:\ClearScriptBridged\node\lib\internal\main\print_help.js
 >   - File (Lines: 51,58,60,286): S:\ClearScriptBridged\node\lib\internal\process\per_thread.js
 
+# Internal Binding: os
+
 > Internal Binding: os
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_os.cc
@@ -475,6 +531,8 @@ module.exports = {
 >   - File (Lines: 27): S:\ClearScriptBridged\node\lib\internal\navigator.js
 >   - File (Lines: 617,909,939): S:\ClearScriptBridged\node\lib\internal\errors.js
 >   - File (Lines: 34,35,61): S:\ClearScriptBridged\node\lib\os.js
+
+# Internal Binding: performance
 
 > Internal Binding: performance
 > - C++ Land
@@ -490,12 +548,16 @@ module.exports = {
 >   - File (Lines: 9): S:\ClearScriptBridged\node\lib\perf_hooks.js
 >   - File (Lines: 31): S:\ClearScriptBridged\node\lib\internal\perf\nodetiming.js
 
+# Internal Binding: permission
+
 > Internal Binding: permission
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\permission\permission.cc
 >   - Register (181): node::permission::Initialize
 > - JavaScript Land
 >   - File (Lines: 8): S:\ClearScriptBridged\node\lib\internal\process\permission.js
+
+# Internal Binding: pipe_wrap
 
 > Internal Binding: pipe_wrap
 > - C++ Land
@@ -506,6 +568,8 @@ module.exports = {
 >   - File (Lines: 64,67,72,77): S:\ClearScriptBridged\node\lib\net.js
 >   - File (Lines: 45,52,53,54,55,56,61,75,80): S:\ClearScriptBridged\node\lib\internal\child_process.js
 >   - File (Lines: 63,64,65,68,88): S:\ClearScriptBridged\node\lib\_tls_wrap.js
+
+# Internal Binding: process_methods
 
 > Internal Binding: process_methods
 > - C++ Land
@@ -520,12 +584,16 @@ module.exports = {
 >   - File (Lines: 21,35,45): S:\ClearScriptBridged\node\lib\inspector.js
 >   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405): S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 
+# Internal Binding: process_wrap
+
 > Internal Binding: process_wrap
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\process_wrap.cc
 >   - Register (344): node::ProcessWrap::Initialize
 > - JavaScript Land
 >   - File (Lines: 45,52,53,54,55,56,61,75,80): S:\ClearScriptBridged\node\lib\internal\child_process.js
+
+# Internal Binding: profiler
 
 > Internal Binding: profiler
 > - C++ Land
@@ -536,10 +604,14 @@ module.exports = {
 >   - File (Lines: 125): S:\ClearScriptBridged\node\lib\internal\test_runner\coverage.js
 >   - File (Lines: 57,66,67,69,80,698,703,831,832): S:\ClearScriptBridged\node\lib\internal\util.js
 
+# Internal Binding: quic
+
 > Internal Binding: quic
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\quic\quic.cc
 >   - Register (50): node::quic::CreatePerContextProperties
+
+# Internal Binding: report
 
 > Internal Binding: report
 > - C++ Land
@@ -547,6 +619,8 @@ module.exports = {
 >   - Register (235): node::report::Initialize
 > - JavaScript Land
 >   - File (Lines: 17): S:\ClearScriptBridged\node\lib\internal\process\report.js
+
+# Internal Binding: sea
 
 > Internal Binding: sea
 > - C++ Land
@@ -559,12 +633,16 @@ module.exports = {
 >   - File (Lines: 7): S:\ClearScriptBridged\node\lib\internal\util\embedding.js
 >   - File (Lines: 5): S:\ClearScriptBridged\node\lib\internal\main\embedding.js
 
+# Internal Binding: serdes
+
 > Internal Binding: serdes
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_serdes.cc
 >   - Register (541): node::serdes::Initialize
 > - JavaScript Land
 >   - File (Lines: 41,47,48,52,60,105): S:\ClearScriptBridged\node\lib\v8.js
+
+# Internal Binding: signal_wrap
 
 > Internal Binding: signal_wrap
 > - C++ Land
@@ -573,6 +651,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 12,25): S:\ClearScriptBridged\node\lib\internal\process\signal.js
 
+# Internal Binding: spawn_sync
+
 > Internal Binding: spawn_sync
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\spawn_sync.cc
@@ -580,12 +660,16 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 45,52,53,54,55,56,61,75,80): S:\ClearScriptBridged\node\lib\internal\child_process.js
 
+# Internal Binding: stream_pipe
+
 > Internal Binding: stream_pipe
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\stream_pipe.cc
 >   - Register (335): node::InitializeStreamPipe
 > - JavaScript Land
 >   - File (Lines: 187,188,193,194,196): S:\ClearScriptBridged\node\lib\internal\http2\core.js
+
+# Internal Binding: stream_wrap
 
 > Internal Binding: stream_wrap
 > - C++ Land
@@ -599,6 +683,8 @@ module.exports = {
 >   - File (Lines: 16): S:\ClearScriptBridged\node\lib\internal\child_process\serialization.js
 >   - File (Lines: 84,88,96): S:\ClearScriptBridged\node\lib\internal\webstreams\adapters.js
 
+# Internal Binding: string_decoder
+
 > Internal Binding: string_decoder
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\string_decoder.cc
@@ -606,6 +692,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 41): S:\ClearScriptBridged\node\lib\string_decoder.js
 >   - File (Lines: 57,66,67,69,80,698,703,831,832): S:\ClearScriptBridged\node\lib\internal\util.js
+
+# Internal Binding: symbols
 
 > Internal Binding: symbols
 > - C++ Land
@@ -624,6 +712,8 @@ module.exports = {
 >   - File (Lines: 11,14,24): S:\ClearScriptBridged\node\lib\internal\worker\js_transferable.js
 >   - File (Lines: 31,41,44): S:\ClearScriptBridged\node\lib\internal\worker\io.js
 
+# Internal Binding: task_queue
+
 > Internal Binding: task_queue
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_task_queue.cc
@@ -632,6 +722,8 @@ module.exports = {
 >   - File (Lines: 21,29): S:\ClearScriptBridged\node\lib\internal\process\promises.js
 >   - File (Lines: 16): S:\ClearScriptBridged\node\lib\internal\process\task_queues.js
 >   - File (Lines: 11,13,83,84,96): S:\ClearScriptBridged\node\lib\internal\async_hooks.js
+
+# Internal Binding: tcp_wrap
 
 > Internal Binding: tcp_wrap
 > - C++ Land
@@ -643,6 +735,8 @@ module.exports = {
 >   - File (Lines: 45,52,53,54,55,56,61,75,80): S:\ClearScriptBridged\node\lib\internal\child_process.js
 >   - File (Lines: 63,64,65,68,88): S:\ClearScriptBridged\node\lib\_tls_wrap.js
 
+# Internal Binding: timers
+
 > Internal Binding: timers
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\timers.cc
@@ -652,12 +746,16 @@ module.exports = {
 >   - File (Lines: 32): S:\ClearScriptBridged\node\lib\timers.js
 >   - File (Lines: 85): S:\ClearScriptBridged\node\lib\internal\timers.js
 
+# Internal Binding: tls_wrap
+
 > Internal Binding: tls_wrap
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\crypto\crypto_tls.cc
 >   - Register (2239): node::crypto::TLSWrap::Initialize
 > - JavaScript Land
 >   - File (Lines: 63,64,65,68,88): S:\ClearScriptBridged\node\lib\_tls_wrap.js
+
+# Internal Binding: trace_events
 
 > Internal Binding: trace_events
 > - C++ Land
@@ -672,6 +770,8 @@ module.exports = {
 >   - File (Lines: 8,21): S:\ClearScriptBridged\node\lib\trace_events.js
 >   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405): S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 
+# Internal Binding: tty_wrap
+
 > Internal Binding: tty_wrap
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\tty_wrap.cc
@@ -679,6 +779,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 31): S:\ClearScriptBridged\node\lib\tty.js
 >   - File (Lines: 45,52,53,54,55,56,61,75,80): S:\ClearScriptBridged\node\lib\internal\child_process.js
+
+# Internal Binding: types
 
 > Internal Binding: types
 > - C++ Land
@@ -689,6 +791,8 @@ module.exports = {
 >   - File (Lines: 58): S:\ClearScriptBridged\node\lib\internal\util\types.js
 >   - File (Lines: 57,66,67,69,80,698,703,831,832): S:\ClearScriptBridged\node\lib\internal\util.js
 
+# Internal Binding: udp_wrap
+
 > Internal Binding: udp_wrap
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\udp_wrap.cc
@@ -697,6 +801,8 @@ module.exports = {
 >   - File (Lines: 45,52,53,54,55,56,61,75,80): S:\ClearScriptBridged\node\lib\internal\child_process.js
 >   - File (Lines: 74,80): S:\ClearScriptBridged\node\lib\dgram.js
 >   - File (Lines: 11,17): S:\ClearScriptBridged\node\lib\internal\dgram.js
+
+# Internal Binding: url
 
 > Internal Binding: url
 > - C++ Land
@@ -708,6 +814,8 @@ module.exports = {
 >   - File (Lines: 35,37): S:\ClearScriptBridged\node\lib\internal\modules\esm\hooks.js
 >   - File (Lines: 63): S:\ClearScriptBridged\node\lib\url.js
 >   - File (Lines: 38,39,57): S:\ClearScriptBridged\node\lib\internal\modules\esm\resolve.js
+
+# Internal Binding: util
 
 > Internal Binding: util
 > - C++ Land
@@ -737,6 +845,8 @@ module.exports = {
 >   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405): S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 >   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677): S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 
+# Internal Binding: uv
+
 > Internal Binding: uv
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\uv.cc
@@ -753,6 +863,8 @@ module.exports = {
 >   - File (Lines: 617,909,939): S:\ClearScriptBridged\node\lib\internal\errors.js
 >   - File (Lines: 84,88,96): S:\ClearScriptBridged\node\lib\internal\webstreams\adapters.js
 
+# Internal Binding: v8
+
 > Internal Binding: v8
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_v8.cc
@@ -760,12 +872,16 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 41,47,48,52,60,105): S:\ClearScriptBridged\node\lib\v8.js
 
+# Internal Binding: wasi
+
 > Internal Binding: wasi
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_wasi.cc
 >   - Register (1336): node::wasi::InitializePreview1
 > - JavaScript Land
 >   - File (Lines: 54,58): S:\ClearScriptBridged\node\lib\wasi.js
+
+# Internal Binding: wasm_web_api
 
 > Internal Binding: wasm_web_api
 > - C++ Land
@@ -775,6 +891,8 @@ module.exports = {
 >   - File (Lines: 7,297,304,308,310): S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 >   - File (Lines: 41,96,101): S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-window-or-worker.js
 
+# Internal Binding: watchdog
+
 > Internal Binding: watchdog
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_watchdog.cc
@@ -782,12 +900,16 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 5): S:\ClearScriptBridged\node\lib\internal\watchdog.js
 
+# Internal Binding: webstorage
+
 > Internal Binding: webstorage
 > - C++ Land
 >   - File: S:\ClearScriptBridged\node\src\node_webstorage.cc
 >   - Register (706): node::webstorage::Initialize
 > - JavaScript Land
 >   - File (Lines: 8): S:\ClearScriptBridged\node\lib\internal\webstorage.js
+
+# Internal Binding: worker
 
 > Internal Binding: worker
 > - C++ Land
@@ -799,6 +921,8 @@ module.exports = {
 >   - File (Lines: 31,41,44): S:\ClearScriptBridged\node\lib\internal\worker\io.js
 >   - File (Lines: 77): S:\ClearScriptBridged\node\lib\internal\worker.js
 >   - File (Lines: 7,297,304,308,310): S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
+
+# Internal Binding: zlib
 
 > Internal Binding: zlib
 > - C++ Land
