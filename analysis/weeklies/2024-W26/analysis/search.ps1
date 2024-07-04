@@ -63,11 +63,11 @@ function Search-SourceFiles {
 
     If( $files.Count ){
         
-        Write-Host "Dumping files..."
+        Write-Host "Loading files..."
 
         $map = $files | ForEach-Object -Begin { $i = 0 } -Process {
             $i++;
-            Write-Host "- Dumping file: $i/$($files.Count)"
+            Write-Host "- Loading file: $i/$($files.Count)" $_.FullName
             @{
                 "File" = $_.FullName
                 "Content" = Get-Content -Path $_.FullName -Raw
@@ -82,7 +82,7 @@ function Search-SourceFiles {
                 Write-Host "Applying filter: $f/$($ContentFilters.Count)"
                 $map = $map | ForEach-Object -Begin { $i = 0 } -Process {
                     $i++;
-                    Write-Host "- Filtering file: $i/$($map.Count)"
+                    Write-Host "- Filtering file: $i/$($map.Count)" $_.File
                     $_
                 } | Where-Object -FilterScript $_
             }
@@ -96,9 +96,9 @@ function Search-SourceFiles {
 
         $map | ForEach-Object -Begin { $i = 0 } -Process {
             $i++;
-            Write-Host "- Searching file: $i/$($map.Count)"
-
             $_map = $_
+
+            Write-Host "- Searching file: $i/$($map.Count)" $_map.File
 
             $m = $parsed_regex.Matches( $_map.Content )
 

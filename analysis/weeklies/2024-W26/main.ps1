@@ -16,6 +16,9 @@ $analysis.week = $paths.root | Split-Path -Leaf
 $runtime = $null;
 $engine = $null;
 
+Start-Transcript -Path "$PSScriptRoot/RESULTS.log";
+
+Write-Host
 Write-Host "Preparing Test Environment:" $analysis.week;
 Try {
     . ($paths.setup + "/setup.ps1")
@@ -27,6 +30,7 @@ Try {
     Write-Host "Test Environment: " -NoNewline; Write-Host "Failed" -NoNewline -ForegroundColor Red; Write-Host;
     Write-Host $_.Exception.Message;
     Write-Host
+    Stop-Transcript;
     Pause;
     Exit;
 }
@@ -42,6 +46,7 @@ Try {
     Write-Host "Dump: " -NoNewline; Write-Host "Failed" -NoNewline -ForegroundColor Red; Write-Host;
     Write-Host $_.Exception.Message;
     Write-Host
+    Stop-Transcript;
     Pause;
     Exit;
 }
@@ -58,6 +63,10 @@ Try {
     Write-Host "Analysis: " -NoNewline; Write-Host "Critically Failed" -NoNewline -ForegroundColor Red; Write-Host;
     Write-Host $_.Exception.Message;
     Write-Host
+    Stop-Transcript;
     Pause;
     Exit;
 }
+
+Write-Host
+Stop-Transcript;

@@ -1,0 +1,1086 @@
+**********************
+PowerShell transcript start
+Start time: 20240704045858
+Username: NIX-BEHEMOTH\smart
+RunAs User: NIX-BEHEMOTH\smart
+Configuration Name: 
+Machine: NIX-BEHEMOTH (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 13692
+PSVersion: 7.4.2
+PSEdition: Core
+GitCommitId: 7.4.2
+OS: Microsoft Windows 10.0.22631
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is S:\ClearScriptBridged\analysis\weeklies\2024-W26/RESULTS.log
+Preparing Test Environment: 2024-W26
+- Dependencies:
+  - PowerShell Modules:
+    - Import-Package:
+Done
+
+    - New-ThreadController:
+Done
+
+  - CSharp Packages:
+    - Microsoft.ClearScript:
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:d206afcd-f01e-0039-6209-ce46eb000000
+Time:2024-07-04T11:59:00.7348236Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:45a2f483-e01e-0035-2609-ced1e3000000
+Time:2024-07-04T11:59:00.9183900Z"
+PS>TerminatingError(Get-ChildItem): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\Microsoft.ClearScript.7.4.5\lib' because it does not exist."
+PS>TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
+>> TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
+WARNING: [Import-Package:Loading] Microsoft.ClearScript is not needed for win-x64:net8.0.4
+    - Microsoft.ClearScript:
+Done
+
+  - NodeJS Modules:
+    - chrome-remote-interface:
+Done
+
+    - yargs:
+Done
+
+- Threads:
+  - LoadCallback:
+Done
+
+- Types:
+  - LoadCallback:
+Done
+
+- Configuration:
+  - LoadCallback:
+Done
+
+  - ClearScript:
+Done
+
+- Initialization:
+  - Runtime:
+Done
+
+  - Engine:
+Done
+
+  - Descriptors:
+Done
+Test Environment:
+Initialized
+
+
+Performing Dump:
+- Dumping:
+Dump:
+Completed
+
+
+Performing Analysis:
+Getting files in S:\ClearScriptBridged\analysis\weeklies\2024-W26\..\..\..\node\src...
+Files found: 170
+Loading files...
+- Loading file: 1/170 S:\ClearScriptBridged\node\src\async_wrap.cc
+- Loading file: 2/170 S:\ClearScriptBridged\node\src\base_object.cc
+- Loading file: 3/170 S:\ClearScriptBridged\node\src\cares_wrap.cc
+- Loading file: 4/170 S:\ClearScriptBridged\node\src\cleanup_queue.cc
+- Loading file: 5/170 S:\ClearScriptBridged\node\src\compile_cache.cc
+- Loading file: 6/170 S:\ClearScriptBridged\node\src\connect_wrap.cc
+- Loading file: 7/170 S:\ClearScriptBridged\node\src\connection_wrap.cc
+- Loading file: 8/170 S:\ClearScriptBridged\node\src\debug_utils.cc
+- Loading file: 9/170 S:\ClearScriptBridged\node\src\embedded_data.cc
+- Loading file: 10/170 S:\ClearScriptBridged\node\src\encoding_binding.cc
+- Loading file: 11/170 S:\ClearScriptBridged\node\src\env.cc
+- Loading file: 12/170 S:\ClearScriptBridged\node\src\fs_event_wrap.cc
+- Loading file: 13/170 S:\ClearScriptBridged\node\src\handle_wrap.cc
+- Loading file: 14/170 S:\ClearScriptBridged\node\src\heap_utils.cc
+- Loading file: 15/170 S:\ClearScriptBridged\node\src\histogram.cc
+- Loading file: 16/170 S:\ClearScriptBridged\node\src\inspector_agent.cc
+- Loading file: 17/170 S:\ClearScriptBridged\node\src\inspector_io.cc
+- Loading file: 18/170 S:\ClearScriptBridged\node\src\inspector_js_api.cc
+- Loading file: 19/170 S:\ClearScriptBridged\node\src\inspector_profiler.cc
+- Loading file: 20/170 S:\ClearScriptBridged\node\src\inspector_socket_server.cc
+- Loading file: 21/170 S:\ClearScriptBridged\node\src\inspector_socket.cc
+- Loading file: 22/170 S:\ClearScriptBridged\node\src\internal_only_v8.cc
+- Loading file: 23/170 S:\ClearScriptBridged\node\src\js_native_api_v8.cc
+- Loading file: 24/170 S:\ClearScriptBridged\node\src\js_stream.cc
+- Loading file: 25/170 S:\ClearScriptBridged\node\src\js_udp_wrap.cc
+- Loading file: 26/170 S:\ClearScriptBridged\node\src\json_parser.cc
+- Loading file: 27/170 S:\ClearScriptBridged\node\src\json_utils.cc
+- Loading file: 28/170 S:\ClearScriptBridged\node\src\module_wrap.cc
+- Loading file: 29/170 S:\ClearScriptBridged\node\src\node_api.cc
+- Loading file: 30/170 S:\ClearScriptBridged\node\src\node_binding.cc
+- Loading file: 31/170 S:\ClearScriptBridged\node\src\node_blob.cc
+- Loading file: 32/170 S:\ClearScriptBridged\node\src\node_buffer.cc
+- Loading file: 33/170 S:\ClearScriptBridged\node\src\node_builtins.cc
+- Loading file: 34/170 S:\ClearScriptBridged\node\src\node_config.cc
+- Loading file: 35/170 S:\ClearScriptBridged\node\src\node_constants.cc
+- Loading file: 36/170 S:\ClearScriptBridged\node\src\node_contextify.cc
+- Loading file: 37/170 S:\ClearScriptBridged\node\src\node_credentials.cc
+- Loading file: 38/170 S:\ClearScriptBridged\node\src\node_crypto.cc
+- Loading file: 39/170 S:\ClearScriptBridged\node\src\node_dir.cc
+- Loading file: 40/170 S:\ClearScriptBridged\node\src\node_dotenv.cc
+- Loading file: 41/170 S:\ClearScriptBridged\node\src\node_env_var.cc
+- Loading file: 42/170 S:\ClearScriptBridged\node\src\node_errors.cc
+- Loading file: 43/170 S:\ClearScriptBridged\node\src\node_external_reference.cc
+- Loading file: 44/170 S:\ClearScriptBridged\node\src\node_file.cc
+- Loading file: 45/170 S:\ClearScriptBridged\node\src\node_http_parser.cc
+- Loading file: 46/170 S:\ClearScriptBridged\node\src\node_http2.cc
+- Loading file: 47/170 S:\ClearScriptBridged\node\src\node_i18n.cc
+- Loading file: 48/170 S:\ClearScriptBridged\node\src\node_main_instance.cc
+- Loading file: 49/170 S:\ClearScriptBridged\node\src\node_main.cc
+- Loading file: 50/170 S:\ClearScriptBridged\node\src\node_messaging.cc
+- Loading file: 51/170 S:\ClearScriptBridged\node\src\node_metadata.cc
+- Loading file: 52/170 S:\ClearScriptBridged\node\src\node_modules.cc
+- Loading file: 53/170 S:\ClearScriptBridged\node\src\node_options.cc
+- Loading file: 54/170 S:\ClearScriptBridged\node\src\node_os.cc
+- Loading file: 55/170 S:\ClearScriptBridged\node\src\node_perf.cc
+- Loading file: 56/170 S:\ClearScriptBridged\node\src\node_platform.cc
+- Loading file: 57/170 S:\ClearScriptBridged\node\src\node_postmortem_metadata.cc
+- Loading file: 58/170 S:\ClearScriptBridged\node\src\node_process_events.cc
+- Loading file: 59/170 S:\ClearScriptBridged\node\src\node_process_methods.cc
+- Loading file: 60/170 S:\ClearScriptBridged\node\src\node_process_object.cc
+- Loading file: 61/170 S:\ClearScriptBridged\node\src\node_realm.cc
+- Loading file: 62/170 S:\ClearScriptBridged\node\src\node_report_module.cc
+- Loading file: 63/170 S:\ClearScriptBridged\node\src\node_report_utils.cc
+- Loading file: 64/170 S:\ClearScriptBridged\node\src\node_report.cc
+- Loading file: 65/170 S:\ClearScriptBridged\node\src\node_sea.cc
+- Loading file: 66/170 S:\ClearScriptBridged\node\src\node_serdes.cc
+- Loading file: 67/170 S:\ClearScriptBridged\node\src\node_shadow_realm.cc
+- Loading file: 68/170 S:\ClearScriptBridged\node\src\node_snapshot_stub.cc
+- Loading file: 69/170 S:\ClearScriptBridged\node\src\node_snapshotable.cc
+- Loading file: 70/170 S:\ClearScriptBridged\node\src\node_sockaddr.cc
+- Loading file: 71/170 S:\ClearScriptBridged\node\src\node_stat_watcher.cc
+- Loading file: 72/170 S:\ClearScriptBridged\node\src\node_symbols.cc
+- Loading file: 73/170 S:\ClearScriptBridged\node\src\node_task_queue.cc
+- Loading file: 74/170 S:\ClearScriptBridged\node\src\node_task_runner.cc
+- Loading file: 75/170 S:\ClearScriptBridged\node\src\node_trace_events.cc
+- Loading file: 76/170 S:\ClearScriptBridged\node\src\node_types.cc
+- Loading file: 77/170 S:\ClearScriptBridged\node\src\node_url.cc
+- Loading file: 78/170 S:\ClearScriptBridged\node\src\node_util.cc
+- Loading file: 79/170 S:\ClearScriptBridged\node\src\node_v8.cc
+- Loading file: 80/170 S:\ClearScriptBridged\node\src\node_wasi.cc
+- Loading file: 81/170 S:\ClearScriptBridged\node\src\node_wasm_web_api.cc
+- Loading file: 82/170 S:\ClearScriptBridged\node\src\node_watchdog.cc
+- Loading file: 83/170 S:\ClearScriptBridged\node\src\node_webstorage.cc
+- Loading file: 84/170 S:\ClearScriptBridged\node\src\node_worker.cc
+- Loading file: 85/170 S:\ClearScriptBridged\node\src\node_zlib.cc
+- Loading file: 86/170 S:\ClearScriptBridged\node\src\node.cc
+- Loading file: 87/170 S:\ClearScriptBridged\node\src\path.cc
+- Loading file: 88/170 S:\ClearScriptBridged\node\src\pipe_wrap.cc
+- Loading file: 89/170 S:\ClearScriptBridged\node\src\process_wrap.cc
+- Loading file: 90/170 S:\ClearScriptBridged\node\src\signal_wrap.cc
+- Loading file: 91/170 S:\ClearScriptBridged\node\src\spawn_sync.cc
+- Loading file: 92/170 S:\ClearScriptBridged\node\src\stream_base.cc
+- Loading file: 93/170 S:\ClearScriptBridged\node\src\stream_pipe.cc
+- Loading file: 94/170 S:\ClearScriptBridged\node\src\stream_wrap.cc
+- Loading file: 95/170 S:\ClearScriptBridged\node\src\string_bytes.cc
+- Loading file: 96/170 S:\ClearScriptBridged\node\src\string_decoder.cc
+- Loading file: 97/170 S:\ClearScriptBridged\node\src\tcp_wrap.cc
+- Loading file: 98/170 S:\ClearScriptBridged\node\src\timer_wrap.cc
+- Loading file: 99/170 S:\ClearScriptBridged\node\src\timers.cc
+- Loading file: 100/170 S:\ClearScriptBridged\node\src\tty_wrap.cc
+- Loading file: 101/170 S:\ClearScriptBridged\node\src\udp_wrap.cc
+- Loading file: 102/170 S:\ClearScriptBridged\node\src\util.cc
+- Loading file: 103/170 S:\ClearScriptBridged\node\src\uv.cc
+- Loading file: 104/170 S:\ClearScriptBridged\node\src\api\async_resource.cc
+- Loading file: 105/170 S:\ClearScriptBridged\node\src\api\callback.cc
+- Loading file: 106/170 S:\ClearScriptBridged\node\src\api\embed_helpers.cc
+- Loading file: 107/170 S:\ClearScriptBridged\node\src\api\encoding.cc
+- Loading file: 108/170 S:\ClearScriptBridged\node\src\api\environment.cc
+- Loading file: 109/170 S:\ClearScriptBridged\node\src\api\exceptions.cc
+- Loading file: 110/170 S:\ClearScriptBridged\node\src\api\hooks.cc
+- Loading file: 111/170 S:\ClearScriptBridged\node\src\api\utils.cc
+- Loading file: 112/170 S:\ClearScriptBridged\node\src\crypto\crypto_aes.cc
+- Loading file: 113/170 S:\ClearScriptBridged\node\src\crypto\crypto_bio.cc
+- Loading file: 114/170 S:\ClearScriptBridged\node\src\crypto\crypto_cipher.cc
+- Loading file: 115/170 S:\ClearScriptBridged\node\src\crypto\crypto_clienthello.cc
+- Loading file: 116/170 S:\ClearScriptBridged\node\src\crypto\crypto_common.cc
+- Loading file: 117/170 S:\ClearScriptBridged\node\src\crypto\crypto_context.cc
+- Loading file: 118/170 S:\ClearScriptBridged\node\src\crypto\crypto_dh.cc
+- Loading file: 119/170 S:\ClearScriptBridged\node\src\crypto\crypto_dsa.cc
+- Loading file: 120/170 S:\ClearScriptBridged\node\src\crypto\crypto_ec.cc
+- Loading file: 121/170 S:\ClearScriptBridged\node\src\crypto\crypto_hash.cc
+- Loading file: 122/170 S:\ClearScriptBridged\node\src\crypto\crypto_hkdf.cc
+- Loading file: 123/170 S:\ClearScriptBridged\node\src\crypto\crypto_hmac.cc
+- Loading file: 124/170 S:\ClearScriptBridged\node\src\crypto\crypto_keygen.cc
+- Loading file: 125/170 S:\ClearScriptBridged\node\src\crypto\crypto_keys.cc
+- Loading file: 126/170 S:\ClearScriptBridged\node\src\crypto\crypto_pbkdf2.cc
+- Loading file: 127/170 S:\ClearScriptBridged\node\src\crypto\crypto_random.cc
+- Loading file: 128/170 S:\ClearScriptBridged\node\src\crypto\crypto_rsa.cc
+- Loading file: 129/170 S:\ClearScriptBridged\node\src\crypto\crypto_scrypt.cc
+- Loading file: 130/170 S:\ClearScriptBridged\node\src\crypto\crypto_sig.cc
+- Loading file: 131/170 S:\ClearScriptBridged\node\src\crypto\crypto_spkac.cc
+- Loading file: 132/170 S:\ClearScriptBridged\node\src\crypto\crypto_timing.cc
+- Loading file: 133/170 S:\ClearScriptBridged\node\src\crypto\crypto_tls.cc
+- Loading file: 134/170 S:\ClearScriptBridged\node\src\crypto\crypto_util.cc
+- Loading file: 135/170 S:\ClearScriptBridged\node\src\crypto\crypto_x509.cc
+- Loading file: 136/170 S:\ClearScriptBridged\node\src\dataqueue\queue.cc
+- Loading file: 137/170 S:\ClearScriptBridged\node\src\inspector\main_thread_interface.cc
+- Loading file: 138/170 S:\ClearScriptBridged\node\src\inspector\node_string.cc
+- Loading file: 139/170 S:\ClearScriptBridged\node\src\inspector\runtime_agent.cc
+- Loading file: 140/170 S:\ClearScriptBridged\node\src\inspector\tracing_agent.cc
+- Loading file: 141/170 S:\ClearScriptBridged\node\src\inspector\worker_agent.cc
+- Loading file: 142/170 S:\ClearScriptBridged\node\src\inspector\worker_inspector.cc
+- Loading file: 143/170 S:\ClearScriptBridged\node\src\large_pages\node_large_page.cc
+- Loading file: 144/170 S:\ClearScriptBridged\node\src\permission\child_process_permission.cc
+- Loading file: 145/170 S:\ClearScriptBridged\node\src\permission\fs_permission.cc
+- Loading file: 146/170 S:\ClearScriptBridged\node\src\permission\inspector_permission.cc
+- Loading file: 147/170 S:\ClearScriptBridged\node\src\permission\permission.cc
+- Loading file: 148/170 S:\ClearScriptBridged\node\src\permission\wasi_permission.cc
+- Loading file: 149/170 S:\ClearScriptBridged\node\src\permission\worker_permission.cc
+- Loading file: 150/170 S:\ClearScriptBridged\node\src\quic\application.cc
+- Loading file: 151/170 S:\ClearScriptBridged\node\src\quic\bindingdata.cc
+- Loading file: 152/170 S:\ClearScriptBridged\node\src\quic\cid.cc
+- Loading file: 153/170 S:\ClearScriptBridged\node\src\quic\data.cc
+- Loading file: 154/170 S:\ClearScriptBridged\node\src\quic\endpoint.cc
+- Loading file: 155/170 S:\ClearScriptBridged\node\src\quic\http3.cc
+- Loading file: 156/170 S:\ClearScriptBridged\node\src\quic\logstream.cc
+- Loading file: 157/170 S:\ClearScriptBridged\node\src\quic\packet.cc
+- Loading file: 158/170 S:\ClearScriptBridged\node\src\quic\preferredaddress.cc
+- Loading file: 159/170 S:\ClearScriptBridged\node\src\quic\quic.cc
+- Loading file: 160/170 S:\ClearScriptBridged\node\src\quic\session.cc
+- Loading file: 161/170 S:\ClearScriptBridged\node\src\quic\sessionticket.cc
+- Loading file: 162/170 S:\ClearScriptBridged\node\src\quic\streams.cc
+- Loading file: 163/170 S:\ClearScriptBridged\node\src\quic\tlscontext.cc
+- Loading file: 164/170 S:\ClearScriptBridged\node\src\quic\tokens.cc
+- Loading file: 165/170 S:\ClearScriptBridged\node\src\quic\transportparams.cc
+- Loading file: 166/170 S:\ClearScriptBridged\node\src\tracing\agent.cc
+- Loading file: 167/170 S:\ClearScriptBridged\node\src\tracing\node_trace_buffer.cc
+- Loading file: 168/170 S:\ClearScriptBridged\node\src\tracing\node_trace_writer.cc
+- Loading file: 169/170 S:\ClearScriptBridged\node\src\tracing\trace_event.cc
+- Loading file: 170/170 S:\ClearScriptBridged\node\src\tracing\traced_value.cc
+Performing regex search...
+- Searching file: 1/170 S:\ClearScriptBridged\node\src\async_wrap.cc
+- Searching file: 2/170 S:\ClearScriptBridged\node\src\base_object.cc
+- Searching file: 3/170 S:\ClearScriptBridged\node\src\cares_wrap.cc
+- Searching file: 4/170 S:\ClearScriptBridged\node\src\cleanup_queue.cc
+- Searching file: 5/170 S:\ClearScriptBridged\node\src\compile_cache.cc
+- Searching file: 6/170 S:\ClearScriptBridged\node\src\connect_wrap.cc
+- Searching file: 7/170 S:\ClearScriptBridged\node\src\connection_wrap.cc
+- Searching file: 8/170 S:\ClearScriptBridged\node\src\debug_utils.cc
+- Searching file: 9/170 S:\ClearScriptBridged\node\src\embedded_data.cc
+- Searching file: 10/170 S:\ClearScriptBridged\node\src\encoding_binding.cc
+- Searching file: 11/170 S:\ClearScriptBridged\node\src\env.cc
+- Searching file: 12/170 S:\ClearScriptBridged\node\src\fs_event_wrap.cc
+- Searching file: 13/170 S:\ClearScriptBridged\node\src\handle_wrap.cc
+- Searching file: 14/170 S:\ClearScriptBridged\node\src\heap_utils.cc
+- Searching file: 15/170 S:\ClearScriptBridged\node\src\histogram.cc
+- Searching file: 16/170 S:\ClearScriptBridged\node\src\inspector_agent.cc
+- Searching file: 17/170 S:\ClearScriptBridged\node\src\inspector_io.cc
+- Searching file: 18/170 S:\ClearScriptBridged\node\src\inspector_js_api.cc
+- Searching file: 19/170 S:\ClearScriptBridged\node\src\inspector_profiler.cc
+- Searching file: 20/170 S:\ClearScriptBridged\node\src\inspector_socket_server.cc
+- Searching file: 21/170 S:\ClearScriptBridged\node\src\inspector_socket.cc
+- Searching file: 22/170 S:\ClearScriptBridged\node\src\internal_only_v8.cc
+- Searching file: 23/170 S:\ClearScriptBridged\node\src\js_native_api_v8.cc
+- Searching file: 24/170 S:\ClearScriptBridged\node\src\js_stream.cc
+- Searching file: 25/170 S:\ClearScriptBridged\node\src\js_udp_wrap.cc
+- Searching file: 26/170 S:\ClearScriptBridged\node\src\json_parser.cc
+- Searching file: 27/170 S:\ClearScriptBridged\node\src\json_utils.cc
+- Searching file: 28/170 S:\ClearScriptBridged\node\src\module_wrap.cc
+- Searching file: 29/170 S:\ClearScriptBridged\node\src\node_api.cc
+- Searching file: 30/170 S:\ClearScriptBridged\node\src\node_binding.cc
+- Searching file: 31/170 S:\ClearScriptBridged\node\src\node_blob.cc
+- Searching file: 32/170 S:\ClearScriptBridged\node\src\node_buffer.cc
+- Searching file: 33/170 S:\ClearScriptBridged\node\src\node_builtins.cc
+- Searching file: 34/170 S:\ClearScriptBridged\node\src\node_config.cc
+- Searching file: 35/170 S:\ClearScriptBridged\node\src\node_constants.cc
+- Searching file: 36/170 S:\ClearScriptBridged\node\src\node_contextify.cc
+- Searching file: 37/170 S:\ClearScriptBridged\node\src\node_credentials.cc
+- Searching file: 38/170 S:\ClearScriptBridged\node\src\node_crypto.cc
+- Searching file: 39/170 S:\ClearScriptBridged\node\src\node_dir.cc
+- Searching file: 40/170 S:\ClearScriptBridged\node\src\node_dotenv.cc
+- Searching file: 41/170 S:\ClearScriptBridged\node\src\node_env_var.cc
+- Searching file: 42/170 S:\ClearScriptBridged\node\src\node_errors.cc
+- Searching file: 43/170 S:\ClearScriptBridged\node\src\node_external_reference.cc
+- Searching file: 44/170 S:\ClearScriptBridged\node\src\node_file.cc
+- Searching file: 45/170 S:\ClearScriptBridged\node\src\node_http_parser.cc
+- Searching file: 46/170 S:\ClearScriptBridged\node\src\node_http2.cc
+- Searching file: 47/170 S:\ClearScriptBridged\node\src\node_i18n.cc
+- Searching file: 48/170 S:\ClearScriptBridged\node\src\node_main_instance.cc
+- Searching file: 49/170 S:\ClearScriptBridged\node\src\node_main.cc
+- Searching file: 50/170 S:\ClearScriptBridged\node\src\node_messaging.cc
+- Searching file: 51/170 S:\ClearScriptBridged\node\src\node_metadata.cc
+- Searching file: 52/170 S:\ClearScriptBridged\node\src\node_modules.cc
+- Searching file: 53/170 S:\ClearScriptBridged\node\src\node_options.cc
+- Searching file: 54/170 S:\ClearScriptBridged\node\src\node_os.cc
+- Searching file: 55/170 S:\ClearScriptBridged\node\src\node_perf.cc
+- Searching file: 56/170 S:\ClearScriptBridged\node\src\node_platform.cc
+- Searching file: 57/170 S:\ClearScriptBridged\node\src\node_postmortem_metadata.cc
+- Searching file: 58/170 S:\ClearScriptBridged\node\src\node_process_events.cc
+- Searching file: 59/170 S:\ClearScriptBridged\node\src\node_process_methods.cc
+- Searching file: 60/170 S:\ClearScriptBridged\node\src\node_process_object.cc
+- Searching file: 61/170 S:\ClearScriptBridged\node\src\node_realm.cc
+- Searching file: 62/170 S:\ClearScriptBridged\node\src\node_report_module.cc
+- Searching file: 63/170 S:\ClearScriptBridged\node\src\node_report_utils.cc
+- Searching file: 64/170 S:\ClearScriptBridged\node\src\node_report.cc
+- Searching file: 65/170 S:\ClearScriptBridged\node\src\node_sea.cc
+- Searching file: 66/170 S:\ClearScriptBridged\node\src\node_serdes.cc
+- Searching file: 67/170 S:\ClearScriptBridged\node\src\node_shadow_realm.cc
+- Searching file: 68/170 S:\ClearScriptBridged\node\src\node_snapshot_stub.cc
+- Searching file: 69/170 S:\ClearScriptBridged\node\src\node_snapshotable.cc
+- Searching file: 70/170 S:\ClearScriptBridged\node\src\node_sockaddr.cc
+- Searching file: 71/170 S:\ClearScriptBridged\node\src\node_stat_watcher.cc
+- Searching file: 72/170 S:\ClearScriptBridged\node\src\node_symbols.cc
+- Searching file: 73/170 S:\ClearScriptBridged\node\src\node_task_queue.cc
+- Searching file: 74/170 S:\ClearScriptBridged\node\src\node_task_runner.cc
+- Searching file: 75/170 S:\ClearScriptBridged\node\src\node_trace_events.cc
+- Searching file: 76/170 S:\ClearScriptBridged\node\src\node_types.cc
+- Searching file: 77/170 S:\ClearScriptBridged\node\src\node_url.cc
+- Searching file: 78/170 S:\ClearScriptBridged\node\src\node_util.cc
+- Searching file: 79/170 S:\ClearScriptBridged\node\src\node_v8.cc
+- Searching file: 80/170 S:\ClearScriptBridged\node\src\node_wasi.cc
+- Searching file: 81/170 S:\ClearScriptBridged\node\src\node_wasm_web_api.cc
+- Searching file: 82/170 S:\ClearScriptBridged\node\src\node_watchdog.cc
+- Searching file: 83/170 S:\ClearScriptBridged\node\src\node_webstorage.cc
+- Searching file: 84/170 S:\ClearScriptBridged\node\src\node_worker.cc
+- Searching file: 85/170 S:\ClearScriptBridged\node\src\node_zlib.cc
+- Searching file: 86/170 S:\ClearScriptBridged\node\src\node.cc
+- Searching file: 87/170 S:\ClearScriptBridged\node\src\path.cc
+- Searching file: 88/170 S:\ClearScriptBridged\node\src\pipe_wrap.cc
+- Searching file: 89/170 S:\ClearScriptBridged\node\src\process_wrap.cc
+- Searching file: 90/170 S:\ClearScriptBridged\node\src\signal_wrap.cc
+- Searching file: 91/170 S:\ClearScriptBridged\node\src\spawn_sync.cc
+- Searching file: 92/170 S:\ClearScriptBridged\node\src\stream_base.cc
+- Searching file: 93/170 S:\ClearScriptBridged\node\src\stream_pipe.cc
+- Searching file: 94/170 S:\ClearScriptBridged\node\src\stream_wrap.cc
+- Searching file: 95/170 S:\ClearScriptBridged\node\src\string_bytes.cc
+- Searching file: 96/170 S:\ClearScriptBridged\node\src\string_decoder.cc
+- Searching file: 97/170 S:\ClearScriptBridged\node\src\tcp_wrap.cc
+- Searching file: 98/170 S:\ClearScriptBridged\node\src\timer_wrap.cc
+- Searching file: 99/170 S:\ClearScriptBridged\node\src\timers.cc
+- Searching file: 100/170 S:\ClearScriptBridged\node\src\tty_wrap.cc
+- Searching file: 101/170 S:\ClearScriptBridged\node\src\udp_wrap.cc
+- Searching file: 102/170 S:\ClearScriptBridged\node\src\util.cc
+- Searching file: 103/170 S:\ClearScriptBridged\node\src\uv.cc
+- Searching file: 104/170 S:\ClearScriptBridged\node\src\api\async_resource.cc
+- Searching file: 105/170 S:\ClearScriptBridged\node\src\api\callback.cc
+- Searching file: 106/170 S:\ClearScriptBridged\node\src\api\embed_helpers.cc
+- Searching file: 107/170 S:\ClearScriptBridged\node\src\api\encoding.cc
+- Searching file: 108/170 S:\ClearScriptBridged\node\src\api\environment.cc
+- Searching file: 109/170 S:\ClearScriptBridged\node\src\api\exceptions.cc
+- Searching file: 110/170 S:\ClearScriptBridged\node\src\api\hooks.cc
+- Searching file: 111/170 S:\ClearScriptBridged\node\src\api\utils.cc
+- Searching file: 112/170 S:\ClearScriptBridged\node\src\crypto\crypto_aes.cc
+- Searching file: 113/170 S:\ClearScriptBridged\node\src\crypto\crypto_bio.cc
+- Searching file: 114/170 S:\ClearScriptBridged\node\src\crypto\crypto_cipher.cc
+- Searching file: 115/170 S:\ClearScriptBridged\node\src\crypto\crypto_clienthello.cc
+- Searching file: 116/170 S:\ClearScriptBridged\node\src\crypto\crypto_common.cc
+- Searching file: 117/170 S:\ClearScriptBridged\node\src\crypto\crypto_context.cc
+- Searching file: 118/170 S:\ClearScriptBridged\node\src\crypto\crypto_dh.cc
+- Searching file: 119/170 S:\ClearScriptBridged\node\src\crypto\crypto_dsa.cc
+- Searching file: 120/170 S:\ClearScriptBridged\node\src\crypto\crypto_ec.cc
+- Searching file: 121/170 S:\ClearScriptBridged\node\src\crypto\crypto_hash.cc
+- Searching file: 122/170 S:\ClearScriptBridged\node\src\crypto\crypto_hkdf.cc
+- Searching file: 123/170 S:\ClearScriptBridged\node\src\crypto\crypto_hmac.cc
+- Searching file: 124/170 S:\ClearScriptBridged\node\src\crypto\crypto_keygen.cc
+- Searching file: 125/170 S:\ClearScriptBridged\node\src\crypto\crypto_keys.cc
+- Searching file: 126/170 S:\ClearScriptBridged\node\src\crypto\crypto_pbkdf2.cc
+- Searching file: 127/170 S:\ClearScriptBridged\node\src\crypto\crypto_random.cc
+- Searching file: 128/170 S:\ClearScriptBridged\node\src\crypto\crypto_rsa.cc
+- Searching file: 129/170 S:\ClearScriptBridged\node\src\crypto\crypto_scrypt.cc
+- Searching file: 130/170 S:\ClearScriptBridged\node\src\crypto\crypto_sig.cc
+- Searching file: 131/170 S:\ClearScriptBridged\node\src\crypto\crypto_spkac.cc
+- Searching file: 132/170 S:\ClearScriptBridged\node\src\crypto\crypto_timing.cc
+- Searching file: 133/170 S:\ClearScriptBridged\node\src\crypto\crypto_tls.cc
+- Searching file: 134/170 S:\ClearScriptBridged\node\src\crypto\crypto_util.cc
+- Searching file: 135/170 S:\ClearScriptBridged\node\src\crypto\crypto_x509.cc
+- Searching file: 136/170 S:\ClearScriptBridged\node\src\dataqueue\queue.cc
+- Searching file: 137/170 S:\ClearScriptBridged\node\src\inspector\main_thread_interface.cc
+- Searching file: 138/170 S:\ClearScriptBridged\node\src\inspector\node_string.cc
+- Searching file: 139/170 S:\ClearScriptBridged\node\src\inspector\runtime_agent.cc
+- Searching file: 140/170 S:\ClearScriptBridged\node\src\inspector\tracing_agent.cc
+- Searching file: 141/170 S:\ClearScriptBridged\node\src\inspector\worker_agent.cc
+- Searching file: 142/170 S:\ClearScriptBridged\node\src\inspector\worker_inspector.cc
+- Searching file: 143/170 S:\ClearScriptBridged\node\src\large_pages\node_large_page.cc
+- Searching file: 144/170 S:\ClearScriptBridged\node\src\permission\child_process_permission.cc
+- Searching file: 145/170 S:\ClearScriptBridged\node\src\permission\fs_permission.cc
+- Searching file: 146/170 S:\ClearScriptBridged\node\src\permission\inspector_permission.cc
+- Searching file: 147/170 S:\ClearScriptBridged\node\src\permission\permission.cc
+- Searching file: 148/170 S:\ClearScriptBridged\node\src\permission\wasi_permission.cc
+- Searching file: 149/170 S:\ClearScriptBridged\node\src\permission\worker_permission.cc
+- Searching file: 150/170 S:\ClearScriptBridged\node\src\quic\application.cc
+- Searching file: 151/170 S:\ClearScriptBridged\node\src\quic\bindingdata.cc
+- Searching file: 152/170 S:\ClearScriptBridged\node\src\quic\cid.cc
+- Searching file: 153/170 S:\ClearScriptBridged\node\src\quic\data.cc
+- Searching file: 154/170 S:\ClearScriptBridged\node\src\quic\endpoint.cc
+- Searching file: 155/170 S:\ClearScriptBridged\node\src\quic\http3.cc
+- Searching file: 156/170 S:\ClearScriptBridged\node\src\quic\logstream.cc
+- Searching file: 157/170 S:\ClearScriptBridged\node\src\quic\packet.cc
+- Searching file: 158/170 S:\ClearScriptBridged\node\src\quic\preferredaddress.cc
+- Searching file: 159/170 S:\ClearScriptBridged\node\src\quic\quic.cc
+- Searching file: 160/170 S:\ClearScriptBridged\node\src\quic\session.cc
+- Searching file: 161/170 S:\ClearScriptBridged\node\src\quic\sessionticket.cc
+- Searching file: 162/170 S:\ClearScriptBridged\node\src\quic\streams.cc
+- Searching file: 163/170 S:\ClearScriptBridged\node\src\quic\tlscontext.cc
+- Searching file: 164/170 S:\ClearScriptBridged\node\src\quic\tokens.cc
+- Searching file: 165/170 S:\ClearScriptBridged\node\src\quic\transportparams.cc
+- Searching file: 166/170 S:\ClearScriptBridged\node\src\tracing\agent.cc
+- Searching file: 167/170 S:\ClearScriptBridged\node\src\tracing\node_trace_buffer.cc
+- Searching file: 168/170 S:\ClearScriptBridged\node\src\tracing\node_trace_writer.cc
+- Searching file: 169/170 S:\ClearScriptBridged\node\src\tracing\trace_event.cc
+- Searching file: 170/170 S:\ClearScriptBridged\node\src\tracing\traced_value.cc
+Search completed.
+
+Internal Binding:
+async_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\async_wrap.cc
+
+- Register (731):
+node::AsyncWrap::CreatePerContextProperties
+
+
+Internal Binding:
+blob
+
+- File:
+S:\ClearScriptBridged\node\src\node_blob.cc
+
+- Register (585):
+node::Blob::CreatePerContextProperties
+
+
+Internal Binding:
+block_list
+
+- File:
+S:\ClearScriptBridged\node\src\node_sockaddr.cc
+
+- Register (888):
+node::SocketAddressBlockListWrap::Initialize
+
+
+Internal Binding:
+buffer
+
+- File:
+S:\ClearScriptBridged\node\src\node_buffer.cc
+
+- Register (1559):
+node::Buffer::Initialize
+
+
+Internal Binding:
+builtins
+
+- File:
+S:\ClearScriptBridged\node\src\node_builtins.cc
+
+- Register (769):
+node::builtins::BuiltinLoader::CreatePerContextProperties
+
+
+Internal Binding:
+cares_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\cares_wrap.cc
+
+- Register (2024):
+node::cares_wrap::Initialize
+
+
+Internal Binding:
+config
+
+- File:
+S:\ClearScriptBridged\node\src\node_config.cc
+
+- Register (83):
+node::Initialize
+
+
+Internal Binding:
+constants
+
+- File:
+S:\ClearScriptBridged\node\src\node_constants.cc
+
+- Register (1371):
+node::constants::CreatePerContextProperties
+
+
+Internal Binding:
+contextify
+
+- File:
+S:\ClearScriptBridged\node\src\node_contextify.cc
+
+- Register (1855):
+node::contextify::CreatePerContextProperties
+
+
+Internal Binding:
+credentials
+
+- File:
+S:\ClearScriptBridged\node\src\node_credentials.cc
+
+- Register (504):
+node::credentials::Initialize
+
+
+Internal Binding:
+crypto
+
+- File:
+S:\ClearScriptBridged\node\src\node_crypto.cc
+
+- Register (95):
+node::crypto::Initialize
+
+
+Internal Binding:
+encoding_binding
+
+- File:
+S:\ClearScriptBridged\node\src\encoding_binding.cc
+
+- Register (251):
+node::encoding_binding::BindingData::CreatePerContextProperties
+
+
+Internal Binding:
+errors
+
+- File:
+S:\ClearScriptBridged\node\src\node_errors.cc
+
+- Register (1310):
+node::errors::Initialize
+
+
+Internal Binding:
+fs
+
+- File:
+S:\ClearScriptBridged\node\src\node_file.cc
+
+- Register (3488):
+node::fs::CreatePerContextProperties
+
+
+Internal Binding:
+fs_dir
+
+- File:
+S:\ClearScriptBridged\node\src\node_dir.cc
+
+- Register (466):
+node::fs_dir::CreatePerContextProperties
+
+
+Internal Binding:
+fs_event_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\fs_event_wrap.cc
+
+- Register (243):
+node::FSEventWrap::Initialize
+
+
+Internal Binding:
+heap_utils
+
+- File:
+S:\ClearScriptBridged\node\src\heap_utils.cc
+
+- Register (496):
+node::heap::Initialize
+
+
+Internal Binding:
+http_parser
+
+- File:
+S:\ClearScriptBridged\node\src\node_http_parser.cc
+
+- Register (1367):
+node::InitializeHttpParser
+
+
+Internal Binding:
+http2
+
+- File:
+S:\ClearScriptBridged\node\src\node_http2.cc
+
+- Register (3471):
+node::http2::Initialize
+
+
+Internal Binding:
+icu
+
+- File:
+S:\ClearScriptBridged\node\src\node_i18n.cc
+
+- Register (915):
+node::i18n::CreatePerContextProperties
+
+
+Internal Binding:
+inspector
+
+- File:
+S:\ClearScriptBridged\node\src\inspector_js_api.cc
+
+- Register (402):
+node::inspector::Initialize
+
+- File:
+S:\ClearScriptBridged\node\src\node.cc
+
+- Register (1487):
+Initialize
+
+
+Internal Binding:
+internal_only_v8
+
+- File:
+S:\ClearScriptBridged\node\src\internal_only_v8.cc
+
+- Register (82):
+node::internal_only_v8::Initialize
+
+
+Internal Binding:
+js_stream
+
+- File:
+S:\ClearScriptBridged\node\src\js_stream.cc
+
+- Register (226):
+node::JSStream::Initialize
+
+
+Internal Binding:
+js_udp_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\js_udp_wrap.cc
+
+- Register (220):
+node::JSUDPWrap::Initialize
+
+
+Internal Binding:
+messaging
+
+- File:
+S:\ClearScriptBridged\node\src\node_messaging.cc
+
+- Register (1724):
+node::worker::CreatePerContextProperties
+
+
+Internal Binding:
+mksnapshot
+
+- File:
+S:\ClearScriptBridged\node\src\node_snapshotable.cc
+
+- Register (1635):
+node::mksnapshot::CreatePerContextProperties
+
+
+Internal Binding:
+module_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\module_wrap.cc
+
+- Register (1100):
+node::loader::ModuleWrap::CreatePerContextProperties
+
+
+Internal Binding:
+modules
+
+- File:
+S:\ClearScriptBridged\node\src\node_modules.cc
+
+- Register (452):
+node::modules::BindingData::CreatePerContextProperties
+
+
+Internal Binding:
+options
+
+- File:
+S:\ClearScriptBridged\node\src\node_options.cc
+
+- Register (1515):
+node::options_parser::Initialize
+
+
+Internal Binding:
+os
+
+- File:
+S:\ClearScriptBridged\node\src\node_os.cc
+
+- Register (433):
+node::os::Initialize
+
+
+Internal Binding:
+performance
+
+- File:
+S:\ClearScriptBridged\node\src\node_perf.cc
+
+- Register (402):
+node::performance::CreatePerContextProperties
+
+
+Internal Binding:
+permission
+
+- File:
+S:\ClearScriptBridged\node\src\permission\permission.cc
+
+- Register (181):
+node::permission::Initialize
+
+
+Internal Binding:
+pipe_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\pipe_wrap.cc
+
+- Register (254):
+node::PipeWrap::Initialize
+
+
+Internal Binding:
+process_methods
+
+- File:
+S:\ClearScriptBridged\node\src\node_process_methods.cc
+
+- Register (716):
+node::process::CreatePerContextProperties
+
+
+Internal Binding:
+process_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\process_wrap.cc
+
+- Register (344):
+node::ProcessWrap::Initialize
+
+
+Internal Binding:
+profiler
+
+- File:
+S:\ClearScriptBridged\node\src\inspector_profiler.cc
+
+- Register (580):
+node::profiler::Initialize
+
+
+Internal Binding:
+quic
+
+- File:
+S:\ClearScriptBridged\node\src\quic\quic.cc
+
+- Register (50):
+node::quic::CreatePerContextProperties
+
+
+Internal Binding:
+report
+
+- File:
+S:\ClearScriptBridged\node\src\node_report_module.cc
+
+- Register (235):
+node::report::Initialize
+
+
+Internal Binding:
+sea
+
+- File:
+S:\ClearScriptBridged\node\src\node_sea.cc
+
+- Register (643):
+node::sea::Initialize
+
+
+Internal Binding:
+serdes
+
+- File:
+S:\ClearScriptBridged\node\src\node_serdes.cc
+
+- Register (541):
+node::serdes::Initialize
+
+
+Internal Binding:
+signal_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\signal_wrap.cc
+
+- Register (177):
+node::SignalWrap::Initialize
+
+
+Internal Binding:
+spawn_sync
+
+- File:
+S:\ClearScriptBridged\node\src\spawn_sync.cc
+
+- Register (1120):
+node::SyncProcessRunner::Initialize
+
+
+Internal Binding:
+stream_pipe
+
+- File:
+S:\ClearScriptBridged\node\src\stream_pipe.cc
+
+- Register (335):
+node::InitializeStreamPipe
+
+
+Internal Binding:
+stream_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\stream_wrap.cc
+
+- Register (418):
+node::LibuvStreamWrap::Initialize
+
+
+Internal Binding:
+string_decoder
+
+- File:
+S:\ClearScriptBridged\node\src\string_decoder.cc
+
+- Register (345):
+node::InitializeStringDecoder
+
+
+Internal Binding:
+symbols
+
+- File:
+S:\ClearScriptBridged\node\src\node_symbols.cc
+
+- Register (32):
+node::symbols::Initialize
+
+
+Internal Binding:
+task_queue
+
+- File:
+S:\ClearScriptBridged\node\src\node_task_queue.cc
+
+- Register (196):
+node::task_queue::Initialize
+
+
+Internal Binding:
+tcp_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\tcp_wrap.cc
+
+- Register (446):
+node::TCPWrap::Initialize
+
+
+Internal Binding:
+timers
+
+- File:
+S:\ClearScriptBridged\node\src\timers.cc
+
+- Register (196):
+node::timers::BindingData::CreatePerContextProperties
+
+
+Internal Binding:
+tls_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\crypto\crypto_tls.cc
+
+- Register (2239):
+node::crypto::TLSWrap::Initialize
+
+
+Internal Binding:
+trace_events
+
+- File:
+S:\ClearScriptBridged\node\src\node_trace_events.cc
+
+- Register (170):
+node::NodeCategorySet::Initialize
+
+
+Internal Binding:
+tty_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\tty_wrap.cc
+
+- Register (157):
+node::TTYWrap::Initialize
+
+
+Internal Binding:
+types
+
+- File:
+S:\ClearScriptBridged\node\src\node_types.cc
+
+- Register (88):
+node::InitializeTypes
+
+
+Internal Binding:
+udp_wrap
+
+- File:
+S:\ClearScriptBridged\node\src\udp_wrap.cc
+
+- Register (839):
+node::UDPWrap::Initialize
+
+
+Internal Binding:
+url
+
+- File:
+S:\ClearScriptBridged\node\src\node_url.cc
+
+- Register (551):
+node::url::BindingData::CreatePerContextProperties
+
+
+Internal Binding:
+util
+
+- File:
+S:\ClearScriptBridged\node\src\node_util.cc
+
+- Register (392):
+node::util::Initialize
+
+
+Internal Binding:
+uv
+
+- File:
+S:\ClearScriptBridged\node\src\uv.cc
+
+- Register (140):
+node::uv::Initialize
+
+
+Internal Binding:
+v8
+
+- File:
+S:\ClearScriptBridged\node\src\node_v8.cc
+
+- Register (506):
+node::v8_utils::Initialize
+
+
+Internal Binding:
+wasi
+
+- File:
+S:\ClearScriptBridged\node\src\node_wasi.cc
+
+- Register (1336):
+node::wasi::InitializePreview1
+
+
+Internal Binding:
+wasm_web_api
+
+- File:
+S:\ClearScriptBridged\node\src\node_wasm_web_api.cc
+
+- Register (210):
+node::wasm_web_api::Initialize
+
+
+Internal Binding:
+watchdog
+
+- File:
+S:\ClearScriptBridged\node\src\node_watchdog.cc
+
+- Register (437):
+node::watchdog::Initialize
+
+
+Internal Binding:
+webstorage
+
+- File:
+S:\ClearScriptBridged\node\src\node_webstorage.cc
+
+- Register (706):
+node::webstorage::Initialize
+
+
+Internal Binding:
+worker
+
+- File:
+S:\ClearScriptBridged\node\src\node_worker.cc
+
+- Register (1020):
+node::worker::CreateWorkerPerContextProperties
+
+
+Internal Binding:
+zlib
+
+- File:
+S:\ClearScriptBridged\node\src\node_zlib.cc
+
+- Register (1463):
+node::Initialize
+
+
+Analysis:
+Complete
+
+
+**********************
+PowerShell transcript end
+End time: 20240704050023
+**********************
