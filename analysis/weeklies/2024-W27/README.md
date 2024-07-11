@@ -31,7 +31,7 @@ cd "analysis\weeklies\2024-W27"
 # $analysis
 ```
 
-# Week 3: Knocking Out The Internal Bindings
+# Week 4: Knocking Out The Internal Bindings
 
 I've updated my analysis script to help generate this post. Everything in blockquotes was generated using source code analysis. The lines following a blockquote are my comments on the generated data.
 
