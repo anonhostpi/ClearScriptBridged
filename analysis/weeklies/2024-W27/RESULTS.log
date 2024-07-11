@@ -1,12 +1,12 @@
 **********************
 PowerShell transcript start
-Start time: 20240704060029
+Start time: 20240706002438
 Username: NIX-BEHEMOTH\smart
 RunAs User: NIX-BEHEMOTH\smart
 Configuration Name: 
 Machine: NIX-BEHEMOTH (Microsoft Windows NT 10.0.22631.0)
 Host Application: C:\Program Files\PowerShell\7\pwsh.dll
-Process ID: 13692
+Process ID: 244648
 PSVersion: 7.4.2
 PSEdition: Core
 GitCommitId: 7.4.2
@@ -22,6 +22,18 @@ Transcript started, output file is S:\ClearScriptBridged\analysis\weeklies\2024-
 Preparing Test Environment: 2024-W27
 - Dependencies:
   - PowerShell Modules:
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:c8a629f1-301e-006b-2a75-cf3a03000000
+Time:2024-07-06T07:24:42.9805415Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:7dc30f4b-a01e-0024-1f75-cf4b57000000
+Time:2024-07-06T07:24:43.3479547Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:f082717a-d01e-0063-7075-cf200c000000
+Time:2024-07-06T07:24:43.7381574Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:4652eb7f-301e-0036-3a75-cf3087000000
+Time:2024-07-06T07:24:43.9200159Z"
     - Import-Package:
 Done
 
@@ -31,12 +43,115 @@ Done
   - CSharp Packages:
     - Microsoft.ClearScript:
 PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
-RequestId:199e7526-101e-0031-0612-ce5ce4000000
-Time:2024-07-04T13:00:31.2465995Z"
+RequestId:1add4210-401e-003c-7875-cf9430000000
+Time:2024-07-06T07:24:44.9208481Z"
 PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
-RequestId:64a42804-001e-003d-2c12-cecbec000000
-Time:2024-07-04T13:00:31.4001577Z"
+RequestId:1f891fac-501e-0042-3f75-cf0477000000
+Time:2024-07-06T07:24:45.0830635Z"
 PS>TerminatingError(Get-ChildItem): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\Microsoft.ClearScript.7.4.5\lib' because it does not exist."
+PS>TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
+>> TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:81694108-901e-0072-5875-cfbab8000000
+Time:2024-07-06T07:24:45.3342263Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:01071e0b-601e-0049-6275-cfff1c000000
+Time:2024-07-06T07:24:45.4890659Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:57d3cfaf-601e-0004-4f75-cf30f0000000
+Time:2024-07-06T07:24:45.6753556Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:03b3cb0e-f01e-0006-0675-cf8e48000000
+Time:2024-07-06T07:24:45.8284292Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:9a0ea37c-301e-0044-4175-cf37c8000000
+Time:2024-07-06T07:24:46.0216147Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:9a0ea3f3-301e-0044-3275-cf37c8000000
+Time:2024-07-06T07:24:46.1714568Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:888069bd-601e-0059-6775-cf3a74000000
+Time:2024-07-06T07:24:46.3866704Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:e0b21158-a01e-0079-6575-cf41d3000000
+Time:2024-07-06T07:24:46.5664316Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:1add451d-401e-003c-5475-cf9430000000
+Time:2024-07-06T07:24:46.7472256Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:46cb89ce-601e-0014-4975-cff598000000
+Time:2024-07-06T07:24:46.8914202Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:dd9e8f3c-001e-0060-7375-cfc168000000
+Time:2024-07-06T07:24:47.0861459Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:070689c1-f01e-0029-6875-cf8383000000
+Time:2024-07-06T07:24:47.2339362Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:e2335f5d-101e-0043-0b75-cf5bab000000
+Time:2024-07-06T07:24:47.4227921Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:8adc1513-c01e-006f-7375-cfb704000000
+Time:2024-07-06T07:24:47.5654812Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:65d2ec11-901e-002f-1975-cfb03c000000
+Time:2024-07-06T07:24:47.7678493Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:0486e515-901e-003f-2975-cf7554000000
+Time:2024-07-06T07:24:47.9142942Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:03626002-a01e-0069-3975-cf84bb000000
+Time:2024-07-06T07:24:48.1257368Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:6700516c-801e-006e-7375-cfe8d8000000
+Time:2024-07-06T07:24:48.2833841Z"
+PS>TerminatingError(Resolve-Path): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\System.Security.Principal.Windows.5.0.0\runtimes\win\native' because it does not exist."
+PS>TerminatingError(Resolve-Path): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\System.Security.AccessControl.5.0.0\runtimes\win\native' because it does not exist."
+PS>TerminatingError(Resolve-Path): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\Microsoft.Win32.Registry.5.0.0\runtimes\win\native' because it does not exist."
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:a485dc38-901e-005d-1e75-cfb773000000
+Time:2024-07-06T07:24:48.5916619Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:3d94a376-601e-0076-4175-cf37bf000000
+Time:2024-07-06T07:24:48.7671491Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:a4395b77-401e-004e-1575-cf937f000000
+Time:2024-07-06T07:24:48.9515920Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:12481768-501e-0030-4a75-cf0338000000
+Time:2024-07-06T07:24:49.0977113Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:c0fc9861-d01e-0011-7c75-cf2743000000
+Time:2024-07-06T07:24:49.2799548Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:65788291-e01e-0035-5275-cfd1e3000000
+Time:2024-07-06T07:24:49.4260426Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:d88ce0d9-201e-002a-0a75-cf62e7000000
+Time:2024-07-06T07:24:49.6032368Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:4652f652-301e-0036-1b75-cf3087000000
+Time:2024-07-06T07:24:49.7500075Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:36341f6a-b01e-0017-7d75-cf14fc000000
+Time:2024-07-06T07:24:49.9360522Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:d7a8dc2b-701e-0045-6d75-cf6814000000
+Time:2024-07-06T07:24:50.1070297Z"
+PS>TerminatingError(Get-ChildItem): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\Microsoft.ClearScript.V8.Native.win-x86.7.4.5\runtimes\lib' because it does not exist."
+PS>TerminatingError(Get-ChildItem): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\Microsoft.ClearScript.V8.Native.win-x86.7.4.5\lib' because it does not exist."
+PS>TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
+>> TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
+PS>TerminatingError(Resolve-Path): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\Microsoft.ClearScript.V8.Native.win-x86.7.4.5\runtimes\native' because it does not exist."
+WARNING: [Import-Package:Loading] Microsoft.ClearScript.V8.Native.win-x86 is not needed for win-x64:net8.0.4
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:e4f86fc6-701e-0055-2d75-cfad7c000000
+Time:2024-07-06T07:24:50.3682005Z"
+PS>TerminatingError(Invoke-WebRequest): "﻿BlobNotFoundThe specified blob does not exist.
+RequestId:1f892b03-501e-0042-0d75-cf0477000000
+Time:2024-07-06T07:24:51.5452694Z"
+PS>TerminatingError(Get-ChildItem): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\Microsoft.ClearScript.V8.Native.win-x64.7.4.5\runtimes\win-x64\lib' because it does not exist."
+PS>TerminatingError(Get-ChildItem): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path 'C:\Users\smart\AppData\Local\PackageManagement\NuGet\Packages\Microsoft.ClearScript.V8.Native.win-x64.7.4.5\lib' because it does not exist."
 PS>TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
 >> TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
 WARNING: [Import-Package:Loading] Microsoft.ClearScript is not needed for win-x64:net8.0.4
@@ -56,6 +171,10 @@ Done
 
 - Types:
   - LoadCallback:
+WARNING: warning CS1701: Assuming assembly reference 'System.Runtime, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' used by 'ClearScript.Core' matches identity 'System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' of 'System.Runtime', you may need to supply runtime policy
+WARNING: warning CS1701: Assuming assembly reference 'System.Runtime, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' used by 'ClearScript.Core' matches identity 'System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' of 'System.Runtime', you may need to supply runtime policy
+WARNING: warning CS1701: Assuming assembly reference 'System.Runtime, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' used by 'ClearScript.Core' matches identity 'System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' of 'System.Runtime', you may need to supply runtime policy
+WARNING: warning CS1701: Assuming assembly reference 'System.Runtime, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' used by 'ClearScript.Core' matches identity 'System.Runtime, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' of 'System.Runtime', you may need to supply runtime policy
 Done
 
 - Configuration:
@@ -1069,6 +1188,10 @@ Performing regex search...
 - Searching file: 315/315 S:\ClearScriptBridged\node\lib\util\types.js
 Search completed.
 
+The following bindings declarations/calls were only found in one of the two "lands":
+- Found only in C++ Land
+  - js_udp_wrap
+  - quic
 Internal Binding:
 async_wrap
 
@@ -1080,14 +1203,14 @@ S:\ClearScriptBridged\node\src\async_wrap.cc
 node::AsyncWrap::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 11,12):
-S:\ClearScriptBridged\node\lib\internal\promise_hooks.js
+  - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 
   - File (Lines: 10,11):
 S:\ClearScriptBridged\node\lib\internal\trace_events_async_hooks.js
 
-  - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
+  - File (Lines: 11,12):
+S:\ClearScriptBridged\node\lib\internal\promise_hooks.js
 
   - File (Lines: 11,13,83,84,96):
 S:\ClearScriptBridged\node\lib\internal\async_hooks.js
@@ -1103,11 +1226,11 @@ S:\ClearScriptBridged\node\src\node_blob.cc
 node::Blob::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 27,30):
-S:\ClearScriptBridged\node\lib\internal\blob.js
-
   - File (Lines: 91,1173):
 S:\ClearScriptBridged\node\lib\internal\url.js
+
+  - File (Lines: 27,30):
+S:\ClearScriptBridged\node\lib\internal\blob.js
 
 Internal Binding:
 block_list
@@ -1120,11 +1243,11 @@ S:\ClearScriptBridged\node\src\node_sockaddr.cc
 node::SocketAddressBlockListWrap::Initialize
 
 - JavaScript Land
-  - File (Lines: 11,31):
-S:\ClearScriptBridged\node\lib\internal\blocklist.js
-
   - File (Lines: 12):
 S:\ClearScriptBridged\node\lib\internal\socketaddress.js
+
+  - File (Lines: 11,31):
+S:\ClearScriptBridged\node\lib\internal\blocklist.js
 
 Internal Binding:
 buffer
@@ -1140,23 +1263,23 @@ node::Buffer::Initialize
   - File (Lines: 30,41):
 S:\ClearScriptBridged\node\lib\internal\webstreams\util.js
 
-  - File (Lines: 28,58):
-S:\ClearScriptBridged\node\lib\internal\util\comparisons.js
-
-  - File (Lines: 41,47,48,52,60,105):
-S:\ClearScriptBridged\node\lib\v8.js
-
-  - File (Lines: 27,30):
-S:\ClearScriptBridged\node\lib\internal\blob.js
-
   - File (Lines: 34,40):
 S:\ClearScriptBridged\node\lib\internal\buffer.js
 
   - File (Lines: 73,80,1216,1220):
 S:\ClearScriptBridged\node\lib\buffer.js
 
+  - File (Lines: 28,58):
+S:\ClearScriptBridged\node\lib\internal\util\comparisons.js
+
+  - File (Lines: 41,47,48,52,60,105):
+S:\ClearScriptBridged\node\lib\v8.js
+
   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
+
+  - File (Lines: 27,30):
+S:\ClearScriptBridged\node\lib\internal\blob.js
 
 Internal Binding:
 builtins
@@ -1169,11 +1292,8 @@ S:\ClearScriptBridged\node\src\node_builtins.cc
 node::builtins::BuiltinLoader::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 15):
-S:\ClearScriptBridged\node\lib\internal\v8_prof_processor.js
-
-  - File (Lines: 121):
-S:\ClearScriptBridged\node\lib\internal\debugger\inspect_repl.js
+  - File (Lines: 199,201,447):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
 
   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
@@ -1181,8 +1301,11 @@ S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
   - File (Lines: 37):
 S:\ClearScriptBridged\node\lib\internal\legacy\processbinding.js
 
-  - File (Lines: 199,201,447):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
+  - File (Lines: 15):
+S:\ClearScriptBridged\node\lib\internal\v8_prof_processor.js
+
+  - File (Lines: 121):
+S:\ClearScriptBridged\node\lib\internal\debugger\inspect_repl.js
 
 Internal Binding:
 cares_wrap
@@ -1195,14 +1318,14 @@ S:\ClearScriptBridged\node\src\cares_wrap.cc
 node::cares_wrap::Initialize
 
 - JavaScript Land
-  - File (Lines: 29):
-S:\ClearScriptBridged\node\lib\internal\dns\callback_resolver.js
+  - File (Lines: 65):
+S:\ClearScriptBridged\node\lib\internal\dns\promises.js
 
   - File (Lines: 63,65):
 S:\ClearScriptBridged\node\lib\tls.js
 
-  - File (Lines: 65):
-S:\ClearScriptBridged\node\lib\internal\dns\promises.js
+  - File (Lines: 29):
+S:\ClearScriptBridged\node\lib\internal\dns\callback_resolver.js
 
   - File (Lines: 31):
 S:\ClearScriptBridged\node\lib\internal\dns\utils.js
@@ -1221,35 +1344,20 @@ S:\ClearScriptBridged\node\src\node_config.cc
 node::Initialize
 
 - JavaScript Land
-  - File (Lines: 35):
-S:\ClearScriptBridged\node\lib\internal\main\eval_string.js
-
-  - File (Lines: 73,80,1216,1220):
-S:\ClearScriptBridged\node\lib\buffer.js
-
-  - File (Lines: 7,297,304,308,310):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
-
-  - File (Lines: 41,47,48,52,60,105):
-S:\ClearScriptBridged\node\lib\v8.js
-
   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 
   - File (Lines: 41,96,101):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-window-or-worker.js
 
-  - File (Lines: 112,2323,2324):
-S:\ClearScriptBridged\node\lib\internal\util\inspect.js
+  - File (Lines: 35):
+S:\ClearScriptBridged\node\lib\internal\main\eval_string.js
 
-  - File (Lines: 49,85):
-S:\ClearScriptBridged\node\lib\internal\util\inspector.js
+  - File (Lines: 7,297,304,308,310):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 
-  - File (Lines: 21,35,45):
-S:\ClearScriptBridged\node\lib\inspector.js
-
-  - File (Lines: 8,21):
-S:\ClearScriptBridged\node\lib\trace_events.js
+  - File (Lines: 37,51,651,654):
+S:\ClearScriptBridged\node\lib\internal\console\constructor.js
 
   - File (Lines: 19,35):
 S:\ClearScriptBridged\node\lib\internal\main\print_help.js
@@ -1257,17 +1365,32 @@ S:\ClearScriptBridged\node\lib\internal\main\print_help.js
   - File (Lines: 20,69):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-wildcard.js
 
-  - File (Lines: 37,51,651,654):
-S:\ClearScriptBridged\node\lib\internal\console\constructor.js
+  - File (Lines: 52,390,398):
+S:\ClearScriptBridged\node\lib\internal\encoding.js
 
   - File (Lines: 11,13):
 S:\ClearScriptBridged\node\lib\internal\inspector_async_hook.js
 
+  - File (Lines: 8,21):
+S:\ClearScriptBridged\node\lib\trace_events.js
+
   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
 S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 
-  - File (Lines: 52,390,398):
-S:\ClearScriptBridged\node\lib\internal\encoding.js
+  - File (Lines: 21,35,45):
+S:\ClearScriptBridged\node\lib\inspector.js
+
+  - File (Lines: 73,80,1216,1220):
+S:\ClearScriptBridged\node\lib\buffer.js
+
+  - File (Lines: 112,2323,2324):
+S:\ClearScriptBridged\node\lib\internal\util\inspect.js
+
+  - File (Lines: 41,47,48,52,60,105):
+S:\ClearScriptBridged\node\lib\v8.js
+
+  - File (Lines: 49,85):
+S:\ClearScriptBridged\node\lib\internal\util\inspector.js
 
 Internal Binding:
 constants
@@ -1280,35 +1403,56 @@ S:\ClearScriptBridged\node\src\node_constants.cc
 node::constants::CreatePerContextProperties
 
 - JavaScript Land
+  - File (Lines: 84,88,96):
+S:\ClearScriptBridged\node\lib\internal\webstreams\adapters.js
+
+  - File (Lines: 27):
+S:\ClearScriptBridged\node\lib\internal\fs\cp\cp-sync.js
+
   - File (Lines: 51,58,60,286):
 S:\ClearScriptBridged\node\lib\internal\process\per_thread.js
 
-  - File (Lines: 23,32):
-S:\ClearScriptBridged\node\lib\internal\fs\promises.js
-
-  - File (Lines: 20,66):
-S:\ClearScriptBridged\node\lib\internal\crypto\diffiehellman.js
-
-  - File (Lines: 57,66,67,69,80,698,703,831,832):
-S:\ClearScriptBridged\node\lib\internal\util.js
-
-  - File (Lines: 16,23):
-S:\ClearScriptBridged\node\lib\internal\crypto\cipher.js
-
-  - File (Lines: 34,35,61):
-S:\ClearScriptBridged\node\lib\os.js
-
-  - File (Lines: 108):
-S:\ClearScriptBridged\node\lib\internal\fs\utils.js
+  - File (Lines: 33):
+S:\ClearScriptBridged\node\lib\constants.js
 
   - File (Lines: 74,80):
 S:\ClearScriptBridged\node\lib\dgram.js
 
+  - File (Lines: 47,72):
+S:\ClearScriptBridged\node\lib\_tls_common.js
+
+  - File (Lines: 46,65):
+S:\ClearScriptBridged\node\lib\fs.js
+
+  - File (Lines: 42,48):
+S:\ClearScriptBridged\node\lib\crypto.js
+
+  - File (Lines: 34,35,61):
+S:\ClearScriptBridged\node\lib\os.js
+
+  - File (Lines: 16,23):
+S:\ClearScriptBridged\node\lib\internal\crypto\cipher.js
+
+  - File (Lines: 12,25):
+S:\ClearScriptBridged\node\lib\internal\process\signal.js
+
+  - File (Lines: 20,66):
+S:\ClearScriptBridged\node\lib\internal\crypto\diffiehellman.js
+
+  - File (Lines: 108):
+S:\ClearScriptBridged\node\lib\internal\fs\utils.js
+
+  - File (Lines: 23,32):
+S:\ClearScriptBridged\node\lib\internal\fs\promises.js
+
   - File (Lines: 44):
 S:\ClearScriptBridged\node\lib\internal\tls\secure-context.js
 
-  - File (Lines: 27):
-S:\ClearScriptBridged\node\lib\internal\fs\cp\cp-sync.js
+  - File (Lines: 57,66,67,69,80,698,703,831,832):
+S:\ClearScriptBridged\node\lib\internal\util.js
+
+  - File (Lines: 65,82):
+S:\ClearScriptBridged\node\lib\zlib.js
 
   - File (Lines: 37):
 S:\ClearScriptBridged\node\lib\internal\validators.js
@@ -1316,32 +1460,11 @@ S:\ClearScriptBridged\node\lib\internal\validators.js
   - File (Lines: 10,11):
 S:\ClearScriptBridged\node\lib\internal\modules\esm\formats.js
 
-  - File (Lines: 47,72):
-S:\ClearScriptBridged\node\lib\_tls_common.js
-
-  - File (Lines: 36):
-S:\ClearScriptBridged\node\lib\internal\fs\cp\cp.js
-
-  - File (Lines: 84,88,96):
-S:\ClearScriptBridged\node\lib\internal\webstreams\adapters.js
-
-  - File (Lines: 65,82):
-S:\ClearScriptBridged\node\lib\zlib.js
-
-  - File (Lines: 46,65):
-S:\ClearScriptBridged\node\lib\fs.js
-
   - File (Lines: 33,41):
 S:\ClearScriptBridged\node\lib\internal\crypto\util.js
 
-  - File (Lines: 33):
-S:\ClearScriptBridged\node\lib\constants.js
-
-  - File (Lines: 42,48):
-S:\ClearScriptBridged\node\lib\crypto.js
-
-  - File (Lines: 12,25):
-S:\ClearScriptBridged\node\lib\internal\process\signal.js
+  - File (Lines: 36):
+S:\ClearScriptBridged\node\lib\internal\fs\cp\cp.js
 
 Internal Binding:
 contextify
@@ -1354,11 +1477,8 @@ S:\ClearScriptBridged\node\src\node_contextify.cc
 node::contextify::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 181,185):
-S:\ClearScriptBridged\node\lib\repl.js
-
-  - File (Lines: 37,68):
-S:\ClearScriptBridged\node\lib\vm.js
+  - File (Lines: 22):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\get_format.js
 
   - File (Lines: 72,74,137,142,143,160,1388,1451):
 S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
@@ -1366,14 +1486,17 @@ S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
   - File (Lines: 19,30,37):
 S:\ClearScriptBridged\node\lib\internal\process\execution.js
 
-  - File (Lines: 11,20,32):
-S:\ClearScriptBridged\node\lib\internal\vm.js
-
   - File (Lines: 32,61):
 S:\ClearScriptBridged\node\lib\internal\modules\esm\translators.js
 
-  - File (Lines: 22):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\get_format.js
+  - File (Lines: 11,20,32):
+S:\ClearScriptBridged\node\lib\internal\vm.js
+
+  - File (Lines: 181,185):
+S:\ClearScriptBridged\node\lib\repl.js
+
+  - File (Lines: 37,68):
+S:\ClearScriptBridged\node\lib\vm.js
 
 Internal Binding:
 credentials
@@ -1386,20 +1509,20 @@ S:\ClearScriptBridged\node\src\node_credentials.cc
 node::credentials::Initialize
 
 - JavaScript Land
-  - File (Lines: 72,74,137,142,143,160,1388,1451):
-S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
-
   - File (Lines: 3,4):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\does_not_own_process_state.js
 
   - File (Lines: 3,4):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\does_own_process_state.js
 
-  - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
-
   - File (Lines: 34,35,61):
 S:\ClearScriptBridged\node\lib\os.js
+
+  - File (Lines: 72,74,137,142,143,160,1388,1451):
+S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
+
+  - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 
 Internal Binding:
 crypto
@@ -1412,44 +1535,65 @@ S:\ClearScriptBridged\node\src\node_crypto.cc
 node::crypto::Initialize
 
 - JavaScript Land
-  - File (Lines: 63,64,65,68,88):
-S:\ClearScriptBridged\node\lib\_tls_wrap.js
-
-  - File (Lines: 16):
-S:\ClearScriptBridged\node\lib\internal\crypto\hash.js
-
-  - File (Lines: 13):
-S:\ClearScriptBridged\node\lib\internal\crypto\scrypt.js
-
-  - File (Lines: 18):
-S:\ClearScriptBridged\node\lib\internal\crypto\ec.js
-
-  - File (Lines: 26):
-S:\ClearScriptBridged\node\lib\internal\crypto\keygen.js
-
-  - File (Lines: 20,66):
-S:\ClearScriptBridged\node\lib\internal\crypto\diffiehellman.js
-
-  - File (Lines: 16,23):
-S:\ClearScriptBridged\node\lib\internal\crypto\cipher.js
-
-  - File (Lines: 18):
-S:\ClearScriptBridged\node\lib\internal\crypto\cfrg.js
-
   - File (Lines: 7):
 S:\ClearScriptBridged\node\lib\internal\crypto\certificate.js
 
-  - File (Lines: 31):
-S:\ClearScriptBridged\node\lib\internal\crypto\random.js
-
-  - File (Lines: 11):
-S:\ClearScriptBridged\node\lib\internal\crypto\hkdf.js
+  - File (Lines: 21):
+S:\ClearScriptBridged\node\lib\internal\crypto\webcrypto.js
 
   - File (Lines: 23):
 S:\ClearScriptBridged\node\lib\internal\crypto\rsa.js
 
+  - File (Lines: 63,64,65,68,88):
+S:\ClearScriptBridged\node\lib\_tls_wrap.js
+
+  - File (Lines: 31):
+S:\ClearScriptBridged\node\lib\internal\crypto\random.js
+
+  - File (Lines: 47,72):
+S:\ClearScriptBridged\node\lib\_tls_common.js
+
+  - File (Lines: 11):
+S:\ClearScriptBridged\node\lib\internal\crypto\hkdf.js
+
+  - File (Lines: 18):
+S:\ClearScriptBridged\node\lib\internal\crypto\ec.js
+
+  - File (Lines: 42,48):
+S:\ClearScriptBridged\node\lib\crypto.js
+
+  - File (Lines: 18):
+S:\ClearScriptBridged\node\lib\internal\crypto\cfrg.js
+
+  - File (Lines: 13):
+S:\ClearScriptBridged\node\lib\internal\crypto\scrypt.js
+
+  - File (Lines: 16,23):
+S:\ClearScriptBridged\node\lib\internal\crypto\cipher.js
+
+  - File (Lines: 27):
+S:\ClearScriptBridged\node\lib\internal\crypto\keys.js
+
+  - File (Lines: 14):
+S:\ClearScriptBridged\node\lib\internal\crypto\mac.js
+
+  - File (Lines: 20,66):
+S:\ClearScriptBridged\node\lib\internal\crypto\diffiehellman.js
+
+  - File (Lines: 63,65):
+S:\ClearScriptBridged\node\lib\tls.js
+
+  - File (Lines: 33):
+S:\ClearScriptBridged\node\lib\internal\crypto\sig.js
+
   - File (Lines: 33):
 S:\ClearScriptBridged\node\lib\internal\crypto\aes.js
+
+  - File (Lines: 26):
+S:\ClearScriptBridged\node\lib\internal\crypto\keygen.js
+
+  - File (Lines: 16):
+S:\ClearScriptBridged\node\lib\internal\crypto\hash.js
 
   - File (Lines: 17):
 S:\ClearScriptBridged\node\lib\internal\crypto\x509.js
@@ -1457,29 +1601,8 @@ S:\ClearScriptBridged\node\lib\internal\crypto\x509.js
   - File (Lines: 13):
 S:\ClearScriptBridged\node\lib\internal\crypto\pbkdf2.js
 
-  - File (Lines: 14):
-S:\ClearScriptBridged\node\lib\internal\crypto\mac.js
-
-  - File (Lines: 47,72):
-S:\ClearScriptBridged\node\lib\_tls_common.js
-
-  - File (Lines: 33):
-S:\ClearScriptBridged\node\lib\internal\crypto\sig.js
-
   - File (Lines: 33,41):
 S:\ClearScriptBridged\node\lib\internal\crypto\util.js
-
-  - File (Lines: 63,65):
-S:\ClearScriptBridged\node\lib\tls.js
-
-  - File (Lines: 42,48):
-S:\ClearScriptBridged\node\lib\crypto.js
-
-  - File (Lines: 21):
-S:\ClearScriptBridged\node\lib\internal\crypto\webcrypto.js
-
-  - File (Lines: 27):
-S:\ClearScriptBridged\node\lib\internal\crypto\keys.js
 
 Internal Binding:
 encoding_binding
@@ -1492,11 +1615,11 @@ S:\ClearScriptBridged\node\src\encoding_binding.cc
 node::encoding_binding::BindingData::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 52,390,398):
-S:\ClearScriptBridged\node\lib\internal\encoding.js
-
   - File (Lines: 3):
 S:\ClearScriptBridged\node\lib\internal\idna.js
+
+  - File (Lines: 52,390,398):
+S:\ClearScriptBridged\node\lib\internal\encoding.js
 
 Internal Binding:
 errors
@@ -1509,68 +1632,68 @@ S:\ClearScriptBridged\node\src\node_errors.cc
 node::errors::Initialize
 
 - JavaScript Land
-  - File (Lines: 51,58,60,286):
-S:\ClearScriptBridged\node\lib\internal\process\per_thread.js
-
-  - File (Lines: 29,56,146):
-S:\ClearScriptBridged\node\lib\internal\main\worker_thread.js
-
   - File (Lines: 253):
 S:\ClearScriptBridged\node\lib\internal\modules\esm\worker.js
-
-  - File (Lines: 21):
-S:\ClearScriptBridged\node\lib\internal\source_map\source_map_cache.js
-
-  - File (Lines: 30):
-S:\ClearScriptBridged\node\lib\diagnostics_channel.js
-
-  - File (Lines: 19):
-S:\ClearScriptBridged\node\lib\internal\main\repl.js
-
-  - File (Lines: 11,13,83,84,96):
-S:\ClearScriptBridged\node\lib\internal\async_hooks.js
-
-  - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
-
-  - File (Lines: 80):
-S:\ClearScriptBridged\node\lib\internal\test_runner\runner.js
-
-  - File (Lines: 8,19):
-S:\ClearScriptBridged\node\lib\internal\test_runner\harness.js
-
-  - File (Lines: 8,18,23):
-S:\ClearScriptBridged\node\lib\internal\modules\run_main.js
-
-  - File (Lines: 50):
-S:\ClearScriptBridged\node\lib\internal\debugger\inspect.js
-
-  - File (Lines: 19,30,37):
-S:\ClearScriptBridged\node\lib\internal\process\execution.js
-
-  - File (Lines: 21,29):
-S:\ClearScriptBridged\node\lib\internal\process\promises.js
-
-  - File (Lines: 19):
-S:\ClearScriptBridged\node\lib\internal\main\watch_mode.js
-
-  - File (Lines: 11,12):
-S:\ClearScriptBridged\node\lib\internal\promise_hooks.js
-
-  - File (Lines: 18):
-S:\ClearScriptBridged\node\lib\internal\cluster\child.js
 
   - File (Lines: 35,37):
 S:\ClearScriptBridged\node\lib\internal\modules\esm\hooks.js
 
-  - File (Lines: 199,201,447):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
+  - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
+
+  - File (Lines: 11,13,83,84,96):
+S:\ClearScriptBridged\node\lib\internal\async_hooks.js
+
+  - File (Lines: 21):
+S:\ClearScriptBridged\node\lib\internal\source_map\source_map_cache.js
+
+  - File (Lines: 18):
+S:\ClearScriptBridged\node\lib\internal\cluster\child.js
+
+  - File (Lines: 50):
+S:\ClearScriptBridged\node\lib\internal\debugger\inspect.js
+
+  - File (Lines: 8,18,23):
+S:\ClearScriptBridged\node\lib\internal\modules\run_main.js
+
+  - File (Lines: 11,12):
+S:\ClearScriptBridged\node\lib\internal\promise_hooks.js
+
+  - File (Lines: 8,19):
+S:\ClearScriptBridged\node\lib\internal\test_runner\harness.js
+
+  - File (Lines: 19):
+S:\ClearScriptBridged\node\lib\internal\main\repl.js
 
   - File (Lines: 17):
 S:\ClearScriptBridged\node\lib\internal\main\test_runner.js
 
   - File (Lines: 25):
 S:\ClearScriptBridged\node\lib\internal\source_map\prepare_stack_trace.js
+
+  - File (Lines: 51,58,60,286):
+S:\ClearScriptBridged\node\lib\internal\process\per_thread.js
+
+  - File (Lines: 19):
+S:\ClearScriptBridged\node\lib\internal\main\watch_mode.js
+
+  - File (Lines: 19,30,37):
+S:\ClearScriptBridged\node\lib\internal\process\execution.js
+
+  - File (Lines: 30):
+S:\ClearScriptBridged\node\lib\diagnostics_channel.js
+
+  - File (Lines: 80):
+S:\ClearScriptBridged\node\lib\internal\test_runner\runner.js
+
+  - File (Lines: 29,56,146):
+S:\ClearScriptBridged\node\lib\internal\main\worker_thread.js
+
+  - File (Lines: 21,29):
+S:\ClearScriptBridged\node\lib\internal\process\promises.js
+
+  - File (Lines: 199,201,447):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
 
 Internal Binding:
 fs
@@ -1583,35 +1706,35 @@ S:\ClearScriptBridged\node\src\node_file.cc
 node::fs::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 10):
-S:\ClearScriptBridged\node\lib\internal\net.js
-
-  - File (Lines: 10,11):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\formats.js
+  - File (Lines: 25,27,28):
+S:\ClearScriptBridged\node\lib\internal\fs\watchers.js
 
   - File (Lines: 18):
 S:\ClearScriptBridged\node\lib\internal\fs\read\context.js
 
-  - File (Lines: 38,39,57):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\resolve.js
+  - File (Lines: 10,11):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\formats.js
+
+  - File (Lines: 72,74,137,142,143,160,1388,1451):
+S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
 
   - File (Lines: 46,65):
 S:\ClearScriptBridged\node\lib\fs.js
 
+  - File (Lines: 23,32):
+S:\ClearScriptBridged\node\lib\internal\fs\promises.js
+
+  - File (Lines: 38,39,57):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\resolve.js
+
   - File (Lines: 187,188,193,194,196):
 S:\ClearScriptBridged\node\lib\internal\http2\core.js
-
-  - File (Lines: 25,27,28):
-S:\ClearScriptBridged\node\lib\internal\fs\watchers.js
 
   - File (Lines: 13,14):
 S:\ClearScriptBridged\node\lib\internal\fs\dir.js
 
-  - File (Lines: 23,32):
-S:\ClearScriptBridged\node\lib\internal\fs\promises.js
-
-  - File (Lines: 72,74,137,142,143,160,1388,1451):
-S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
+  - File (Lines: 10):
+S:\ClearScriptBridged\node\lib\internal\net.js
 
 Internal Binding:
 fs_dir
@@ -1669,11 +1792,11 @@ node::InitializeHttpParser
   - File (Lines: 52):
 S:\ClearScriptBridged\node\lib\_http_server.js
 
-  - File (Lines: 31):
-S:\ClearScriptBridged\node\lib\_http_common.js
-
   - File (Lines: 45,52,53,54,55,56,61,75,80):
 S:\ClearScriptBridged\node\lib\internal\child_process.js
+
+  - File (Lines: 31):
+S:\ClearScriptBridged\node\lib\_http_common.js
 
 Internal Binding:
 http2
@@ -1686,14 +1809,14 @@ S:\ClearScriptBridged\node\src\node_http2.cc
 node::http2::Initialize
 
 - JavaScript Land
+  - File (Lines: 39):
+S:\ClearScriptBridged\node\lib\internal\http2\compat.js
+
   - File (Lines: 21):
 S:\ClearScriptBridged\node\lib\internal\http2\util.js
 
   - File (Lines: 187,188,193,194,196):
 S:\ClearScriptBridged\node\lib\internal\http2\core.js
-
-  - File (Lines: 39):
-S:\ClearScriptBridged\node\lib\internal\http2\compat.js
 
 Internal Binding:
 icu
@@ -1706,14 +1829,14 @@ S:\ClearScriptBridged\node\src\node_i18n.cc
 node::i18n::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 73,80,1216,1220):
-S:\ClearScriptBridged\node\lib\buffer.js
+  - File (Lines: 112,2323,2324):
+S:\ClearScriptBridged\node\lib\internal\util\inspect.js
 
   - File (Lines: 52,390,398):
 S:\ClearScriptBridged\node\lib\internal\encoding.js
 
-  - File (Lines: 112,2323,2324):
-S:\ClearScriptBridged\node\lib\internal\util\inspect.js
+  - File (Lines: 73,80,1216,1220):
+S:\ClearScriptBridged\node\lib\buffer.js
 
 Internal Binding:
 inspector
@@ -1732,29 +1855,29 @@ S:\ClearScriptBridged\node\src\node.cc
 Initialize
 
 - JavaScript Land
+  - File (Lines: 20,69):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-wildcard.js
+
+  - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
+S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
+
   - File (Lines: 11,13):
 S:\ClearScriptBridged\node\lib\internal\inspector_async_hook.js
 
+  - File (Lines: 72,74,137,142,143,160,1388,1451):
+S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
+
+  - File (Lines: 21,35,45):
+S:\ClearScriptBridged\node\lib\inspector.js
+
   - File (Lines: 37,51,651,654):
 S:\ClearScriptBridged\node\lib\internal\console\constructor.js
-
-  - File (Lines: 20,69):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-wildcard.js
 
   - File (Lines: 49,85):
 S:\ClearScriptBridged\node\lib\internal\util\inspector.js
 
   - File (Lines: 26,31,168):
 S:\ClearScriptBridged\node\lib\internal\modules\esm\module_job.js
-
-  - File (Lines: 21,35,45):
-S:\ClearScriptBridged\node\lib\inspector.js
-
-  - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
-S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
-
-  - File (Lines: 72,74,137,142,143,160,1388,1451):
-S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
 
 Internal Binding:
 internal_only_v8
@@ -1805,35 +1928,35 @@ S:\ClearScriptBridged\node\src\node_messaging.cc
 node::worker::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 41,96,101):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-window-or-worker.js
-
   - File (Lines: 34):
 S:\ClearScriptBridged\node\lib\internal\perf\usertiming.js
-
-  - File (Lines: 30):
-S:\ClearScriptBridged\node\lib\internal\webstreams\writablestream.js
-
-  - File (Lines: 43,90):
-S:\ClearScriptBridged\node\lib\internal\webstreams\readablestream.js
-
-  - File (Lines: 57,66,67,69,80,698,703,831,832):
-S:\ClearScriptBridged\node\lib\internal\util.js
 
   - File (Lines: 23):
 S:\ClearScriptBridged\node\lib\internal\webstreams\transformstream.js
 
+  - File (Lines: 43,90):
+S:\ClearScriptBridged\node\lib\internal\webstreams\readablestream.js
+
   - File (Lines: 53):
 S:\ClearScriptBridged\node\lib\internal\abort_controller.js
 
-  - File (Lines: 16):
-S:\ClearScriptBridged\node\lib\internal\webstreams\transfer.js
+  - File (Lines: 41,96,101):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-window-or-worker.js
+
+  - File (Lines: 11,14,24):
+S:\ClearScriptBridged\node\lib\internal\worker\js_transferable.js
 
   - File (Lines: 31,41,44):
 S:\ClearScriptBridged\node\lib\internal\worker\io.js
 
-  - File (Lines: 11,14,24):
-S:\ClearScriptBridged\node\lib\internal\worker\js_transferable.js
+  - File (Lines: 30):
+S:\ClearScriptBridged\node\lib\internal\webstreams\writablestream.js
+
+  - File (Lines: 16):
+S:\ClearScriptBridged\node\lib\internal\webstreams\transfer.js
+
+  - File (Lines: 57,66,67,69,80,698,703,831,832):
+S:\ClearScriptBridged\node\lib\internal\util.js
 
 Internal Binding:
 mksnapshot
@@ -1846,14 +1969,14 @@ S:\ClearScriptBridged\node\src\node_snapshotable.cc
 node::mksnapshot::CreatePerContextProperties
 
 - JavaScript Land
+  - File (Lines: 16,18):
+S:\ClearScriptBridged\node\lib\internal\main\mksnapshot.js
+
   - File (Lines: 19):
 S:\ClearScriptBridged\node\lib\internal\v8\startup_snapshot.js
 
   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
 S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
-
-  - File (Lines: 16,18):
-S:\ClearScriptBridged\node\lib\internal\main\mksnapshot.js
 
 Internal Binding:
 module_wrap
@@ -1866,23 +1989,23 @@ S:\ClearScriptBridged\node\src\module_wrap.cc
 node::loader::ModuleWrap::CreatePerContextProperties
 
 - JavaScript Land
+  - File (Lines: 14,21,23,45):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\utils.js
+
+  - File (Lines: 199,201,447):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
+
   - File (Lines: 22,39):
 S:\ClearScriptBridged\node\lib\internal\modules\esm\loader.js
-
-  - File (Lines: 32,61):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\translators.js
-
-  - File (Lines: 7,297,304,308,310):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 
   - File (Lines: 72,74,137,142,143,160,1388,1451):
 S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
 
-  - File (Lines: 26,31,168):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\module_job.js
-
   - File (Lines: 29,56,146):
 S:\ClearScriptBridged\node\lib\internal\main\worker_thread.js
+
+  - File (Lines: 32,61):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\translators.js
 
   - File (Lines: 73):
 S:\ClearScriptBridged\node\lib\internal\main\check_syntax.js
@@ -1890,11 +2013,11 @@ S:\ClearScriptBridged\node\lib\internal\main\check_syntax.js
   - File (Lines: 55):
 S:\ClearScriptBridged\node\lib\internal\vm\module.js
 
-  - File (Lines: 14,21,23,45):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\utils.js
+  - File (Lines: 26,31,168):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\module_job.js
 
-  - File (Lines: 199,201,447):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
+  - File (Lines: 7,297,304,308,310):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 
 Internal Binding:
 modules
@@ -1944,14 +2067,14 @@ S:\ClearScriptBridged\node\src\node_os.cc
 node::os::Initialize
 
 - JavaScript Land
+  - File (Lines: 34,35,61):
+S:\ClearScriptBridged\node\lib\os.js
+
   - File (Lines: 27):
 S:\ClearScriptBridged\node\lib\internal\navigator.js
 
   - File (Lines: 617,909,939):
 S:\ClearScriptBridged\node\lib\internal\errors.js
-
-  - File (Lines: 34,35,61):
-S:\ClearScriptBridged\node\lib\os.js
 
 Internal Binding:
 performance
@@ -1964,29 +2087,29 @@ S:\ClearScriptBridged\node\src\node_perf.cc
 node::performance::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 36):
-S:\ClearScriptBridged\node\lib\internal\perf\observe.js
-
-  - File (Lines: 17):
-S:\ClearScriptBridged\node\lib\internal\perf\event_loop_delay.js
-
-  - File (Lines: 15):
-S:\ClearScriptBridged\node\lib\internal\histogram.js
-
   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
 S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 
-  - File (Lines: 10):
-S:\ClearScriptBridged\node\lib\internal\perf\utils.js
-
-  - File (Lines: 9):
-S:\ClearScriptBridged\node\lib\internal\perf\event_loop_utilization.js
+  - File (Lines: 31):
+S:\ClearScriptBridged\node\lib\internal\perf\nodetiming.js
 
   - File (Lines: 9):
 S:\ClearScriptBridged\node\lib\perf_hooks.js
 
-  - File (Lines: 31):
-S:\ClearScriptBridged\node\lib\internal\perf\nodetiming.js
+  - File (Lines: 17):
+S:\ClearScriptBridged\node\lib\internal\perf\event_loop_delay.js
+
+  - File (Lines: 9):
+S:\ClearScriptBridged\node\lib\internal\perf\event_loop_utilization.js
+
+  - File (Lines: 10):
+S:\ClearScriptBridged\node\lib\internal\perf\utils.js
+
+  - File (Lines: 36):
+S:\ClearScriptBridged\node\lib\internal\perf\observe.js
+
+  - File (Lines: 15):
+S:\ClearScriptBridged\node\lib\internal\histogram.js
 
 Internal Binding:
 permission
@@ -2013,17 +2136,17 @@ S:\ClearScriptBridged\node\src\pipe_wrap.cc
 node::PipeWrap::Initialize
 
 - JavaScript Land
-  - File (Lines: 63):
-S:\ClearScriptBridged\node\lib\child_process.js
-
-  - File (Lines: 64,67,72,77):
-S:\ClearScriptBridged\node\lib\net.js
+  - File (Lines: 63,64,65,68,88):
+S:\ClearScriptBridged\node\lib\_tls_wrap.js
 
   - File (Lines: 45,52,53,54,55,56,61,75,80):
 S:\ClearScriptBridged\node\lib\internal\child_process.js
 
-  - File (Lines: 63,64,65,68,88):
-S:\ClearScriptBridged\node\lib\_tls_wrap.js
+  - File (Lines: 64,67,72,77):
+S:\ClearScriptBridged\node\lib\net.js
+
+  - File (Lines: 63):
+S:\ClearScriptBridged\node\lib\child_process.js
 
 Internal Binding:
 process_methods
@@ -2036,26 +2159,26 @@ S:\ClearScriptBridged\node\src\node_process_methods.cc
 node::process::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 7,297,304,308,310):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
-
-  - File (Lines: 3,4):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\does_own_process_state.js
+  - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
+S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 
   - File (Lines: 51,58,60,286):
 S:\ClearScriptBridged\node\lib\internal\process\per_thread.js
 
-  - File (Lines: 3,4):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\does_not_own_process_state.js
-
-  - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
-S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
-
   - File (Lines: 21,35,45):
 S:\ClearScriptBridged\node\lib\inspector.js
 
+  - File (Lines: 3,4):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\does_not_own_process_state.js
+
   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
+
+  - File (Lines: 3,4):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\does_own_process_state.js
+
+  - File (Lines: 7,297,304,308,310):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 
 Internal Binding:
 process_wrap
@@ -2082,14 +2205,14 @@ S:\ClearScriptBridged\node\src\inspector_profiler.cc
 node::profiler::Initialize
 
 - JavaScript Land
+  - File (Lines: 57,66,67,69,80,698,703,831,832):
+S:\ClearScriptBridged\node\lib\internal\util.js
+
   - File (Lines: 41,47,48,52,60,105):
 S:\ClearScriptBridged\node\lib\v8.js
 
   - File (Lines: 125):
 S:\ClearScriptBridged\node\lib\internal\test_runner\coverage.js
-
-  - File (Lines: 57,66,67,69,80,698,703,831,832):
-S:\ClearScriptBridged\node\lib\internal\util.js
 
 Internal Binding:
 quic
@@ -2126,14 +2249,14 @@ S:\ClearScriptBridged\node\src\node_sea.cc
 node::sea::Initialize
 
 - JavaScript Land
+  - File (Lines: 16,18):
+S:\ClearScriptBridged\node\lib\internal\main\mksnapshot.js
+
   - File (Lines: 6):
 S:\ClearScriptBridged\node\lib\sea.js
 
   - File (Lines: 72,74,137,142,143,160,1388,1451):
 S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
-
-  - File (Lines: 16,18):
-S:\ClearScriptBridged\node\lib\internal\main\mksnapshot.js
 
   - File (Lines: 7):
 S:\ClearScriptBridged\node\lib\internal\util\embedding.js
@@ -2208,23 +2331,23 @@ S:\ClearScriptBridged\node\src\stream_wrap.cc
 node::LibuvStreamWrap::Initialize
 
 - JavaScript Land
-  - File (Lines: 64,67,72,77):
-S:\ClearScriptBridged\node\lib\net.js
+  - File (Lines: 84,88,96):
+S:\ClearScriptBridged\node\lib\internal\webstreams\adapters.js
 
   - File (Lines: 45,52,53,54,55,56,61,75,80):
 S:\ClearScriptBridged\node\lib\internal\child_process.js
 
-  - File (Lines: 187,188,193,194,196):
-S:\ClearScriptBridged\node\lib\internal\http2\core.js
+  - File (Lines: 16):
+S:\ClearScriptBridged\node\lib\internal\child_process\serialization.js
 
   - File (Lines: 17,18):
 S:\ClearScriptBridged\node\lib\internal\stream_base_commons.js
 
-  - File (Lines: 16):
-S:\ClearScriptBridged\node\lib\internal\child_process\serialization.js
+  - File (Lines: 64,67,72,77):
+S:\ClearScriptBridged\node\lib\net.js
 
-  - File (Lines: 84,88,96):
-S:\ClearScriptBridged\node\lib\internal\webstreams\adapters.js
+  - File (Lines: 187,188,193,194,196):
+S:\ClearScriptBridged\node\lib\internal\http2\core.js
 
 Internal Binding:
 string_decoder
@@ -2237,11 +2360,11 @@ S:\ClearScriptBridged\node\src\string_decoder.cc
 node::InitializeStringDecoder
 
 - JavaScript Land
-  - File (Lines: 41):
-S:\ClearScriptBridged\node\lib\string_decoder.js
-
   - File (Lines: 57,66,67,69,80,698,703,831,832):
 S:\ClearScriptBridged\node\lib\internal\util.js
+
+  - File (Lines: 41):
+S:\ClearScriptBridged\node\lib\string_decoder.js
 
 Internal Binding:
 symbols
@@ -2254,38 +2377,38 @@ S:\ClearScriptBridged\node\src\node_symbols.cc
 node::symbols::Initialize
 
 - JavaScript Land
-  - File (Lines: 63,64,65,68,88):
-S:\ClearScriptBridged\node\lib\_tls_wrap.js
-
-  - File (Lines: 37,68):
-S:\ClearScriptBridged\node\lib\vm.js
-
-  - File (Lines: 72,74,137,142,143,160,1388,1451):
-S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
-
-  - File (Lines: 22,39):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\loader.js
+  - File (Lines: 14,21,23,45):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\utils.js
 
   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
 S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 
-  - File (Lines: 11,13,83,84,96):
-S:\ClearScriptBridged\node\lib\internal\async_hooks.js
-
-  - File (Lines: 11,20,32):
-S:\ClearScriptBridged\node\lib\internal\vm.js
+  - File (Lines: 22,39):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\loader.js
 
   - File (Lines: 11,31):
 S:\ClearScriptBridged\node\lib\internal\blocklist.js
 
-  - File (Lines: 14,21,23,45):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\utils.js
+  - File (Lines: 72,74,137,142,143,160,1388,1451):
+S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
+
+  - File (Lines: 11,13,83,84,96):
+S:\ClearScriptBridged\node\lib\internal\async_hooks.js
 
   - File (Lines: 11,14,24):
 S:\ClearScriptBridged\node\lib\internal\worker\js_transferable.js
 
   - File (Lines: 31,41,44):
 S:\ClearScriptBridged\node\lib\internal\worker\io.js
+
+  - File (Lines: 11,20,32):
+S:\ClearScriptBridged\node\lib\internal\vm.js
+
+  - File (Lines: 63,64,65,68,88):
+S:\ClearScriptBridged\node\lib\_tls_wrap.js
+
+  - File (Lines: 37,68):
+S:\ClearScriptBridged\node\lib\vm.js
 
 Internal Binding:
 task_queue
@@ -2298,11 +2421,11 @@ S:\ClearScriptBridged\node\src\node_task_queue.cc
 node::task_queue::Initialize
 
 - JavaScript Land
-  - File (Lines: 21,29):
-S:\ClearScriptBridged\node\lib\internal\process\promises.js
-
   - File (Lines: 16):
 S:\ClearScriptBridged\node\lib\internal\process\task_queues.js
+
+  - File (Lines: 21,29):
+S:\ClearScriptBridged\node\lib\internal\process\promises.js
 
   - File (Lines: 11,13,83,84,96):
 S:\ClearScriptBridged\node\lib\internal\async_hooks.js
@@ -2318,17 +2441,17 @@ S:\ClearScriptBridged\node\src\tcp_wrap.cc
 node::TCPWrap::Initialize
 
 - JavaScript Land
+  - File (Lines: 63,64,65,68,88):
+S:\ClearScriptBridged\node\lib\_tls_wrap.js
+
+  - File (Lines: 45,52,53,54,55,56,61,75,80):
+S:\ClearScriptBridged\node\lib\internal\child_process.js
+
   - File (Lines: 13):
 S:\ClearScriptBridged\node\lib\internal\cluster\round_robin_handle.js
 
   - File (Lines: 64,67,72,77):
 S:\ClearScriptBridged\node\lib\net.js
-
-  - File (Lines: 45,52,53,54,55,56,61,75,80):
-S:\ClearScriptBridged\node\lib\internal\child_process.js
-
-  - File (Lines: 63,64,65,68,88):
-S:\ClearScriptBridged\node\lib\_tls_wrap.js
 
 Internal Binding:
 timers
@@ -2375,26 +2498,26 @@ S:\ClearScriptBridged\node\src\node_trace_events.cc
 node::NodeCategorySet::Initialize
 
 - JavaScript Land
-  - File (Lines: 11):
-S:\ClearScriptBridged\node\lib\internal\http.js
-
   - File (Lines: 10,11):
 S:\ClearScriptBridged\node\lib\internal\trace_events_async_hooks.js
-
-  - File (Lines: 37,51,651,654):
-S:\ClearScriptBridged\node\lib\internal\console\constructor.js
-
-  - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
-S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
 
   - File (Lines: 23):
 S:\ClearScriptBridged\node\lib\internal\util\debuglog.js
 
-  - File (Lines: 8,21):
-S:\ClearScriptBridged\node\lib\trace_events.js
+  - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
+S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
+
+  - File (Lines: 11):
+S:\ClearScriptBridged\node\lib\internal\http.js
+
+  - File (Lines: 37,51,651,654):
+S:\ClearScriptBridged\node\lib\internal\console\constructor.js
 
   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
+
+  - File (Lines: 8,21):
+S:\ClearScriptBridged\node\lib\trace_events.js
 
 Internal Binding:
 tty_wrap
@@ -2407,11 +2530,11 @@ S:\ClearScriptBridged\node\src\tty_wrap.cc
 node::TTYWrap::Initialize
 
 - JavaScript Land
-  - File (Lines: 31):
-S:\ClearScriptBridged\node\lib\tty.js
-
   - File (Lines: 45,52,53,54,55,56,61,75,80):
 S:\ClearScriptBridged\node\lib\internal\child_process.js
+
+  - File (Lines: 31):
+S:\ClearScriptBridged\node\lib\tty.js
 
 Internal Binding:
 types
@@ -2424,14 +2547,14 @@ S:\ClearScriptBridged\node\src\node_types.cc
 node::InitializeTypes
 
 - JavaScript Land
-  - File (Lines: 167):
-S:\ClearScriptBridged\node\lib\internal\test_runner\reporter\tap.js
-
   - File (Lines: 58):
 S:\ClearScriptBridged\node\lib\internal\util\types.js
 
   - File (Lines: 57,66,67,69,80,698,703,831,832):
 S:\ClearScriptBridged\node\lib\internal\util.js
+
+  - File (Lines: 167):
+S:\ClearScriptBridged\node\lib\internal\test_runner\reporter\tap.js
 
 Internal Binding:
 udp_wrap
@@ -2447,11 +2570,11 @@ node::UDPWrap::Initialize
   - File (Lines: 45,52,53,54,55,56,61,75,80):
 S:\ClearScriptBridged\node\lib\internal\child_process.js
 
-  - File (Lines: 74,80):
-S:\ClearScriptBridged\node\lib\dgram.js
-
   - File (Lines: 11,17):
 S:\ClearScriptBridged\node\lib\internal\dgram.js
+
+  - File (Lines: 74,80):
+S:\ClearScriptBridged\node\lib\dgram.js
 
 Internal Binding:
 url
@@ -2464,20 +2587,20 @@ S:\ClearScriptBridged\node\src\node_url.cc
 node::url::BindingData::CreatePerContextProperties
 
 - JavaScript Land
-  - File (Lines: 91,1173):
-S:\ClearScriptBridged\node\lib\internal\url.js
-
-  - File (Lines: 30):
-S:\ClearScriptBridged\node\lib\internal\modules\helpers.js
+  - File (Lines: 63):
+S:\ClearScriptBridged\node\lib\url.js
 
   - File (Lines: 35,37):
 S:\ClearScriptBridged\node\lib\internal\modules\esm\hooks.js
 
-  - File (Lines: 63):
-S:\ClearScriptBridged\node\lib\url.js
-
   - File (Lines: 38,39,57):
 S:\ClearScriptBridged\node\lib\internal\modules\esm\resolve.js
+
+  - File (Lines: 30):
+S:\ClearScriptBridged\node\lib\internal\modules\helpers.js
+
+  - File (Lines: 91,1173):
+S:\ClearScriptBridged\node\lib\internal\url.js
 
 Internal Binding:
 util
@@ -2490,71 +2613,71 @@ S:\ClearScriptBridged\node\src\node_util.cc
 node::util::Initialize
 
 - JavaScript Land
-  - File (Lines: 14,21,23,45):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\utils.js
-
-  - File (Lines: 11,14,24):
-S:\ClearScriptBridged\node\lib\internal\worker\js_transferable.js
-
-  - File (Lines: 11,20,32):
-S:\ClearScriptBridged\node\lib\internal\vm.js
-
-  - File (Lines: 37,51,651,654):
-S:\ClearScriptBridged\node\lib\internal\console\constructor.js
-
-  - File (Lines: 73,80,1216,1220):
-S:\ClearScriptBridged\node\lib\buffer.js
-
-  - File (Lines: 72,74,137,142,143,160,1388,1451):
-S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
-
-  - File (Lines: 65):
-S:\ClearScriptBridged\node\lib\util.js
-
-  - File (Lines: 26,31,168):
-S:\ClearScriptBridged\node\lib\internal\modules\esm\module_job.js
-
-  - File (Lines: 181,185):
-S:\ClearScriptBridged\node\lib\repl.js
-
-  - File (Lines: 15):
-S:\ClearScriptBridged\node\lib\internal\source_map\source_map_cache_map.js
-
-  - File (Lines: 112,2323,2324):
-S:\ClearScriptBridged\node\lib\internal\util\inspect.js
-
-  - File (Lines: 617,909,939):
-S:\ClearScriptBridged\node\lib\internal\errors.js
-
-  - File (Lines: 8,18,23):
-S:\ClearScriptBridged\node\lib\internal\modules\run_main.js
-
-  - File (Lines: 8,19):
-S:\ClearScriptBridged\node\lib\internal\test_runner\harness.js
-
-  - File (Lines: 19,30,37):
-S:\ClearScriptBridged\node\lib\internal\process\execution.js
-
-  - File (Lines: 57,66,67,69,80,698,703,831,832):
-S:\ClearScriptBridged\node\lib\internal\util.js
-
   - File (Lines: 30):
 S:\ClearScriptBridged\node\lib\internal\test_runner\test.js
-
-  - File (Lines: 30,41):
-S:\ClearScriptBridged\node\lib\internal\webstreams\util.js
-
-  - File (Lines: 28,58):
-S:\ClearScriptBridged\node\lib\internal\util\comparisons.js
 
   - File (Lines: 34,40):
 S:\ClearScriptBridged\node\lib\internal\buffer.js
 
+  - File (Lines: 28,58):
+S:\ClearScriptBridged\node\lib\internal\util\comparisons.js
+
+  - File (Lines: 19,30,37):
+S:\ClearScriptBridged\node\lib\internal\process\execution.js
+
+  - File (Lines: 72,74,137,142,143,160,1388,1451):
+S:\ClearScriptBridged\node\lib\internal\modules\cjs\loader.js
+
+  - File (Lines: 37,51,651,654):
+S:\ClearScriptBridged\node\lib\internal\console\constructor.js
+
   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 
+  - File (Lines: 8,18,23):
+S:\ClearScriptBridged\node\lib\internal\modules\run_main.js
+
+  - File (Lines: 181,185):
+S:\ClearScriptBridged\node\lib\repl.js
+
+  - File (Lines: 8,19):
+S:\ClearScriptBridged\node\lib\internal\test_runner\harness.js
+
+  - File (Lines: 57,66,67,69,80,698,703,831,832):
+S:\ClearScriptBridged\node\lib\internal\util.js
+
+  - File (Lines: 26,31,168):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\module_job.js
+
+  - File (Lines: 30,41):
+S:\ClearScriptBridged\node\lib\internal\webstreams\util.js
+
   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
 S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
+
+  - File (Lines: 73,80,1216,1220):
+S:\ClearScriptBridged\node\lib\buffer.js
+
+  - File (Lines: 11,20,32):
+S:\ClearScriptBridged\node\lib\internal\vm.js
+
+  - File (Lines: 112,2323,2324):
+S:\ClearScriptBridged\node\lib\internal\util\inspect.js
+
+  - File (Lines: 15):
+S:\ClearScriptBridged\node\lib\internal\source_map\source_map_cache_map.js
+
+  - File (Lines: 617,909,939):
+S:\ClearScriptBridged\node\lib\internal\errors.js
+
+  - File (Lines: 11,14,24):
+S:\ClearScriptBridged\node\lib\internal\worker\js_transferable.js
+
+  - File (Lines: 65):
+S:\ClearScriptBridged\node\lib\util.js
+
+  - File (Lines: 14,21,23,45):
+S:\ClearScriptBridged\node\lib\internal\modules\esm\utils.js
 
 Internal Binding:
 uv
@@ -2567,35 +2690,35 @@ S:\ClearScriptBridged\node\src\uv.cc
 node::uv::Initialize
 
 - JavaScript Land
-  - File (Lines: 64,67,72,77):
-S:\ClearScriptBridged\node\lib\net.js
-
-  - File (Lines: 17,18):
-S:\ClearScriptBridged\node\lib\internal\stream_base_commons.js
-
-  - File (Lines: 10,11):
-S:\ClearScriptBridged\node\lib\internal\js_stream_socket.js
-
-  - File (Lines: 11,17):
-S:\ClearScriptBridged\node\lib\internal\dgram.js
-
-  - File (Lines: 187,188,193,194,196):
-S:\ClearScriptBridged\node\lib\internal\http2\core.js
-
-  - File (Lines: 57,66,67,69,80,698,703,831,832):
-S:\ClearScriptBridged\node\lib\internal\util.js
-
   - File (Lines: 25,27,28):
 S:\ClearScriptBridged\node\lib\internal\fs\watchers.js
-
-  - File (Lines: 45,52,53,54,55,56,61,75,80):
-S:\ClearScriptBridged\node\lib\internal\child_process.js
 
   - File (Lines: 617,909,939):
 S:\ClearScriptBridged\node\lib\internal\errors.js
 
   - File (Lines: 84,88,96):
 S:\ClearScriptBridged\node\lib\internal\webstreams\adapters.js
+
+  - File (Lines: 11,17):
+S:\ClearScriptBridged\node\lib\internal\dgram.js
+
+  - File (Lines: 10,11):
+S:\ClearScriptBridged\node\lib\internal\js_stream_socket.js
+
+  - File (Lines: 45,52,53,54,55,56,61,75,80):
+S:\ClearScriptBridged\node\lib\internal\child_process.js
+
+  - File (Lines: 187,188,193,194,196):
+S:\ClearScriptBridged\node\lib\internal\http2\core.js
+
+  - File (Lines: 17,18):
+S:\ClearScriptBridged\node\lib\internal\stream_base_commons.js
+
+  - File (Lines: 64,67,72,77):
+S:\ClearScriptBridged\node\lib\net.js
+
+  - File (Lines: 57,66,67,69,80,698,703,831,832):
+S:\ClearScriptBridged\node\lib\internal\util.js
 
 Internal Binding:
 v8
@@ -2636,11 +2759,11 @@ S:\ClearScriptBridged\node\src\node_wasm_web_api.cc
 node::wasm_web_api::Initialize
 
 - JavaScript Land
-  - File (Lines: 7,297,304,308,310):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
-
   - File (Lines: 41,96,101):
 S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-window-or-worker.js
+
+  - File (Lines: 7,297,304,308,310):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 
 Internal Binding:
 watchdog
@@ -2681,20 +2804,20 @@ S:\ClearScriptBridged\node\src\node_worker.cc
 node::worker::CreateWorkerPerContextProperties
 
 - JavaScript Land
+  - File (Lines: 31,41,44):
+S:\ClearScriptBridged\node\lib\internal\worker\io.js
+
+  - File (Lines: 7,297,304,308,310):
+S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
+
+  - File (Lines: 77):
+S:\ClearScriptBridged\node\lib\internal\worker.js
+
   - File (Lines: 29,56,146):
 S:\ClearScriptBridged\node\lib\internal\main\worker_thread.js
 
   - File (Lines: 75,78,122,143,214,421,432,437,450,483,638,655,677):
 S:\ClearScriptBridged\node\lib\internal\process\pre_execution.js
-
-  - File (Lines: 31,41,44):
-S:\ClearScriptBridged\node\lib\internal\worker\io.js
-
-  - File (Lines: 77):
-S:\ClearScriptBridged\node\lib\internal\worker.js
-
-  - File (Lines: 7,297,304,308,310):
-S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 
 Internal Binding:
 zlib
@@ -2717,5 +2840,5 @@ Complete
 
 **********************
 PowerShell transcript end
-End time: 20240704060204
+End time: 20240706002612
 **********************

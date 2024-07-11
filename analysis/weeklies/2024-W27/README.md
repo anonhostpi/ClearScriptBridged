@@ -39,6 +39,11 @@ The data generated is a 2-part breakdown of the internal bindings in Node.JS. Th
 
 It was found that these are only included in test files for Node.JS, and are not used in the main codebase. An effort to include them will be made, but not prioritized.
 
+## UPDATE: JS2C
+
+After some source code review, it was found that there are some hidden NativeModules in Node.JS that are apparently written by others. The NativeModules added can be found in the build file:
+- https://github.com/nodejs/node/blob/059f2f43b814619cdc0f93cf3683bd8f5c349c6a/node.gyp#L44C6-L60
+
 # Internal Binding: async_wrap
 
 > Internal Binding: async_wrap
@@ -53,73 +58,6 @@ It was found that these are only included in test files for Node.JS, and are not
 
 This is a binding to the old AsyncWrap API. While it is deprecated, it is still used in the Node.JS codebase and is the basis for the newer AsyncHooks and promisication APIs. Its purpose is to provide hooks to track the lifecycle of asynchronous operations. It is used to handle various operations like file I/O, network I/O, timers, and more.
 
-## Uses
-
-**_promise_hooks.js_**: Lifecycle hooks for promises.
-```
-const { setPromiseHooks } = internalBinding('async_wrap');
-```
-**_trace_events_async_hooks.js_**: Integration with trace events.
-```
-const async_wrap = internalBinding('async_wrap');
-// ...
-const nativeProviders = new SafeSet(ObjectKeys(async_wrap.Providers));
-// ...
-nativeProviders.delete('PROMISE');
-```
-**_bootstrap\node.js_**: Initialization of the binding.
-```
-internalBinding('async_wrap').setupHooks(nativeHooks);
-```
-**_async_hooks.js_**: A less low-level API for async operations.
-```
-const async_wrap = internalBinding('async_wrap');
-// ...
-const {
-  async_hook_fields,
-  async_id_fields,
-  execution_async_resources,
-} = async_wrap;
-// ...
-const {
-  pushAsyncContext: pushAsyncContext_,
-  popAsyncContext: popAsyncContext_,
-  executionAsyncResource: executionAsyncResource_,
-  clearAsyncIdStack,
-} = async_wrap;
-// ...
-const { registerDestroyHook } = async_wrap;
-// ...
-const {
-  kInit, kBefore, kAfter, kDestroy, kTotals, kPromiseResolve,
-  kCheck, kExecutionAsyncId, kAsyncIdCounter, kTriggerAsyncId,
-  kDefaultTriggerAsyncId, kStackLength, kUsesExecutionAsyncResource,
-} = async_wrap.constants;
-// ...
-async_wrap.queueDestroyAsyncId(asyncId);
-// ...
-async_wrap.async_ids_stack[offset * 2] = async_id_fields[kExecutionAsyncId];
-async_wrap.async_ids_stack[offset * 2 + 1] = async_id_fields[kTriggerAsyncId];
-// ...
-async_id_fields[kExecutionAsyncId] = async_wrap.async_ids_stack[2 * offset];
-async_id_fields[kTriggerAsyncId] = async_wrap.async_ids_stack[2 * offset + 1];
-// ...
-module.exports = {
-  // ...
-  constants: {
-    kInit, kBefore, kAfter, kDestroy, kTotals, kPromiseResolve,
-  },
-  // ...
-  clearAsyncIdStack,
-  // ...
-  registerDestroyHook,
-  // ...
-  asyncWrap: {
-    Providers: async_wrap.Providers,
-  },
-}
-```
-
 # Internal Binding: blob
 
 > Internal Binding: blob
@@ -130,6 +68,8 @@ module.exports = {
 >   - File (Lines: 27,30): S:\ClearScriptBridged\node\lib\internal\blob.js
 >   - File (Lines: 91,1173): S:\ClearScriptBridged\node\lib\internal\url.js
 
+ECMAScript does not include a built-in Blob object. This binding is used to help generate Blob objects in Node.JS. It is used in the URL API to handle Blob URLs.
+
 # Internal Binding: block_list
 
 > Internal Binding: block_list
@@ -139,6 +79,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 11,31): S:\ClearScriptBridged\node\lib\internal\blocklist.js
 >   - File (Lines: 12): S:\ClearScriptBridged\node\lib\internal\socketaddress.js
+
+Used to generate the net.BlockList class in Node.JS. This class is used to handle blocklists for IP addresses and domains. Another primary exposed binding of block_list is the SocketAddress binding used in the net.SocketAddress class.
 
 # Internal Binding: buffer
 
@@ -155,6 +97,8 @@ module.exports = {
 >   - File (Lines: 73,80,1216,1220): S:\ClearScriptBridged\node\lib\buffer.js
 >   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405): S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 
+
+
 # Internal Binding: builtins
 
 > Internal Binding: builtins
@@ -167,6 +111,14 @@ module.exports = {
 >   - File (Lines: 68,86,138,158,194,208,222,303,317,338,405): S:\ClearScriptBridged\node\lib\internal\bootstrap\node.js
 >   - File (Lines: 37): S:\ClearScriptBridged\node\lib\internal\legacy\processbinding.js
 >   - File (Lines: 199,201,447): S:\ClearScriptBridged\node\lib\internal\bootstrap\realm.js
+
+This binding provides interfaces to interact with the embedded JS files in the nodejs engine.
+- `natives` object - retrieving internal JS filetexts embedded in Node.JS.
+- `builtinIds` array - retrieving the IDs of the internal JS files. Typically used to determine if a file is a NativeModule or not.
+- `hasCachedBuiltins` getter - the underlying function behind `process.features.cached_builtins`. Determines if the code cache is enabled and the builtins are cached.
+- `configs` JSON text - the underlying abstraction behind `process.config`. Contains the configuration and build information of the Node.JS engine.
+- `compileFunction` function - the JS land function used to compile the builtins at runtime.
+- `setInternalLoaders` function - registers the `require` and `internalBinding` functions as the loaders used in the builtins.
 
 # Internal Binding: cares_wrap
 
@@ -872,6 +824,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 41,47,48,52,60,105): S:\ClearScriptBridged\node\lib\v8.js
 
+Used to get statistics and snapshots of the V8 heap.
+
 # Internal Binding: wasi
 
 > Internal Binding: wasi
@@ -880,6 +834,8 @@ module.exports = {
 >   - Register (1336): node::wasi::InitializePreview1
 > - JavaScript Land
 >   - File (Lines: 54,58): S:\ClearScriptBridged\node\lib\wasi.js
+
+Provides a C++ backend to the wasi API.
 
 # Internal Binding: wasm_web_api
 
@@ -891,6 +847,8 @@ module.exports = {
 >   - File (Lines: 7,297,304,308,310): S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 >   - File (Lines: 41,96,101): S:\ClearScriptBridged\node\lib\internal\bootstrap\web\exposed-window-or-worker.js
 
+Used to initialize the WebAssembly Web API.
+
 # Internal Binding: watchdog
 
 > Internal Binding: watchdog
@@ -900,6 +858,8 @@ module.exports = {
 > - JavaScript Land
 >   - File (Lines: 5): S:\ClearScriptBridged\node\lib\internal\watchdog.js
 
+Provides a watchdog that specifically monitors the SIGINT signal.
+
 # Internal Binding: webstorage
 
 > Internal Binding: webstorage
@@ -908,6 +868,8 @@ module.exports = {
 >   - Register (706): node::webstorage::Initialize
 > - JavaScript Land
 >   - File (Lines: 8): S:\ClearScriptBridged\node\lib\internal\webstorage.js
+
+Adds experimental support for the Web Storage API
 
 # Internal Binding: worker
 
@@ -922,6 +884,8 @@ module.exports = {
 >   - File (Lines: 77): S:\ClearScriptBridged\node\lib\internal\worker.js
 >   - File (Lines: 7,297,304,308,310): S:\ClearScriptBridged\node\lib\internal\bootstrap\switches\is_main_thread.js
 
+This binding provides methods for setting up worker threads and an API for handling errors and controlling and communicating with each of node's threads. For all threads including the main thread, it provides APIs for identifying them and checking if the current thread is the main.
+
 # Internal Binding: zlib
 
 > Internal Binding: zlib
@@ -930,3 +894,5 @@ module.exports = {
 >   - Register (1463): node::Initialize
 > - JavaScript Land
 >   - File (Lines: 65,82): S:\ClearScriptBridged\node\lib\zlib.js
+
+Provides streams for efficient and reliable compression and decompression
