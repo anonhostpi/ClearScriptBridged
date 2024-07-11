@@ -1,11 +1,16 @@
-Prior posts from this mini-series:
+Related posts to this mini-series:
 
 * Turning PowerShell Into A Python Engine: [https://www.reddit.com/r/PowerShell/comments/192uavr/turning\_powershell\_into\_a\_python\_engine/](https://www.reddit.com/r/PowerShell/comments/192uavr/turning_powershell_into_a_python_engine/)
 * Turning PowerShell Into A JavaScript Engine: [https://www.reddit.com/r/PowerShell/comments/1937hkv/turning\_powershell\_into\_a\_javascript\_engine/](https://www.reddit.com/r/PowerShell/comments/1937hkv/turning_powershell_into_a_javascript_engine/)
+
+Prior posts from this mini-series
+
 * Working On Turning PowerShell Into A Node.JS Engine: [https://www.reddit.com/r/PowerShell/comments/1djdql5/working_on_turning_powershell_into_a_nodejs_engine/](https://www.reddit.com/r/PowerShell/comments/1djdql5/working_on_turning_powershell_into_a_nodejs_engine/)
   * **TL;DR: [_Github gist_](https://gist.github.com/anonhostpi/7ebc4007f3f51e0f255c2408d33b1781)**
-* Turning PowerShell into Node.JS: Week 1 Progress: [https://www.reddit.com/r/PowerShell/comments/1dpg8i8/turning_powershell_into_nodejs_week_1_progress/](https://www.reddit.com/r/PowerShell/comments/1dpg8i8/turning_powershell_into_nodejs_week_1_progress/)
+* Week 1 Progress: [https://www.reddit.com/r/PowerShell/comments/1dpg8i8/turning_powershell_into_nodejs_week_1_progress/](https://www.reddit.com/r/PowerShell/comments/1dpg8i8/turning_powershell_into_nodejs_week_1_progress/)
   * **TL;DR: [_Old Github Repo_](https://gist.github.com/anonhostpi/njs-cjs-pwsh)**
+* Week 2 Progress: [https://www.reddit.com/r/PowerShell/comments/1dv35de/turning_powershell_into_nodejs_week_2_progress/](https://www.reddit.com/r/PowerShell/comments/1dv35de/turning_powershell_into_nodejs_week_2_progress/)
+  * **TL;DR:** Same as this post.
 
 # TL;DR:
 
